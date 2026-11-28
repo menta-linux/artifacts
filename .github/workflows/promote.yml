@@ -1,0 +1,62 @@
+name: promote
+# Manual, reviewed promotion of an exact, previously tested staging snapshot to stable. No rebuild, no re-resolution.
+run-name: promote ${{ inputs.snapshot }}
+on:
+  workflow_dispatch:
+    inputs:
+      snapshot:
+        description: "Snapshot id (s-<16 hex>) that ran in staging"
+        required: true
+        type: string
+      evidence:
+        description: "Reference to the evidence that justifies the promotion"
+        required: true
+        type: string
+      confirm:
+        description: "Really move the pointer (otherwise a dry run is printed)"
+        required: false
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: artifacts-state
+  cancel-in-progress: false
+jobs:
+  promote:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    environment: stable-promotion          # protected environment: a required reviewer must approve every run
+    env:
+      SNAPSHOT: ${{ inputs.snapshot }}
+      EVIDENCE: ${{ inputs.evidence }}
+      CONFIRM: ${{ inputs.confirm }}
+    steps:
+      - name: Validate the identifier before using it anywhere
+        run: '[[ "$SNAPSHOT" =~ ^s-[0-9a-f]{16}$ ]] || { echo "bad snapshot id"; exit 2; }'
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: menta-linux/orchestrator
+          ref: 75a8be38c682bc43940bfc201ac28cd5cea80d53
+          path: orchestrator
+          persist-credentials: false
+      - name: Install tooling (distribution packages only)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends python3-debian python3-jsonschema python3-cryptography python3-yaml python3-apt dose-builddebcheck dose-extra gnupg gpgv debian-archive-keyring git
+      - name: Promote
+        run: |
+          cd orchestrator
+          args=(promote --artifacts "$GITHUB_WORKSPACE" --snapshot "$SNAPSHOT" --actor "$GITHUB_ACTOR" --evidence "$EVIDENCE")
+          [ "$CONFIRM" = "true" ] && args+=(--confirm)
+          PYTHONPATH=src python3 -m menta_ci.cli "${args[@]}"
+      - name: Commit the pointer move
+        if: env.CONFIRM == 'true'
+        run: |
+          git config user.name "menta-ci"
+          git config user.email "menta-ci@users.noreply.github.com"
+          git add channels.json history.jsonl
+          git diff --cached --quiet && exit 0
+          git commit -q -m "promote $SNAPSHOT to stable"
+          for i in 1 2 3 4 5; do git push && exit 0; git pull --rebase -q; done; exit 1
