@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           repository: menta-linux/orchestrator
-          ref: 22196da5ca13636abae9191927bbfa24e158d03f
+          ref: c93f8d5be7c1b3003fa013d0069a9a84a02aee5e
           path: orchestrator
           persist-credentials: false
       - name: Install tooling (distribution packages only)
