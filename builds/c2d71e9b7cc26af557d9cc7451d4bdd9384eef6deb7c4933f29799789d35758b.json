@@ -1,0 +1,37 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "cd8926b755d79d955f70a5d62ce4f425880f8a65354d7025fff661045fd2b9be",
+ "build_environment": "trixie",
+ "build_id": "sha256:c2d71e9b7cc26af557d9cc7451d4bdd9384eef6deb7c4933f29799789d35758b",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:c2d71e9b7cc26af557d9cc7451d4bdd9384eef6deb7c4933f29799789d35758b",
+   "file": "mate-fprint_1.0.0-1menta1.deb13_amd64.deb",
+   "package": "mate-fprint",
+   "sha256": "e55239c63fc8e37e072548f33ba9f6dfcb491430a15dc4aa1a6ea548d915b874",
+   "size": 23080,
+   "source": "mate-fprint",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-fprint_1.0.0-1menta1.deb13_amd64.deb",
+   "version": "1.0.0-1menta1~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-fprint",
+ "source_sha256": "77b9c6a16b4c11123683550e28607eefdb1206e8dd10c1ae653ab6b64f5a754f",
+ "target": "trixie",
+ "upstream_version": "1.0.0",
+ "version": "1.0.0-1menta1~deb13"
+}

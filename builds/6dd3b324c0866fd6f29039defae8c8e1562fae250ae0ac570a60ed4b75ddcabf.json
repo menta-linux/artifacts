@@ -1,0 +1,70 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "786bad9886f70a4df0bcc7e053c6df1c3371b30c0f907ca476a1d796c2a075c3",
+ "build_environment": "sid",
+ "build_id": "sha256:6dd3b324c0866fd6f29039defae8c8e1562fae250ae0ac570a60ed4b75ddcabf",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:6dd3b324c0866fd6f29039defae8c8e1562fae250ae0ac570a60ed4b75ddcabf",
+   "file": "libmatedict-dev_1.29.1+git20261117.1745848-1menta1_amd64.deb",
+   "package": "libmatedict-dev",
+   "sha256": "5a270a0da1eeed80b9c593c96233a35d4f692986c8920af2f8b74ec213c5a501",
+   "size": 18616,
+   "source": "mate-utils",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmatedict-dev_1.29.1+git20261117.1745848-1menta1_amd64.deb",
+   "version": "1.29.1+git20261117.1745848-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:6dd3b324c0866fd6f29039defae8c8e1562fae250ae0ac570a60ed4b75ddcabf",
+   "file": "libmatedict6_1.29.1+git20261117.1745848-1menta1_amd64.deb",
+   "package": "libmatedict6",
+   "sha256": "8fa9d2be3ae65bc35d259b24cc58b6a3677e859235747515e81030f1b6bf881f",
+   "size": 54436,
+   "source": "mate-utils",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmatedict6_1.29.1+git20261117.1745848-1menta1_amd64.deb",
+   "version": "1.29.1+git20261117.1745848-1menta1"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:6dd3b324c0866fd6f29039defae8c8e1562fae250ae0ac570a60ed4b75ddcabf",
+   "file": "mate-utils-common_1.29.1+git20261117.1745848-1menta1_all.deb",
+   "package": "mate-utils-common",
+   "sha256": "184c95755971096ce13323df7d5b8ee1b4a3750935d9f2413ac9b2207a8017dc",
+   "size": 6627772,
+   "source": "mate-utils",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-utils-common_1.29.1+git20261117.1745848-1menta1_all.deb",
+   "version": "1.29.1+git20261117.1745848-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:6dd3b324c0866fd6f29039defae8c8e1562fae250ae0ac570a60ed4b75ddcabf",
+   "file": "mate-utils_1.29.1+git20261117.1745848-1menta1_amd64.deb",
+   "package": "mate-utils",
+   "sha256": "e46e5310d97455715f29fe96dab194504100c96fde8a4c4a0652a74df9f0644d",
+   "size": 238532,
+   "source": "mate-utils",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-utils_1.29.1+git20261117.1745848-1menta1_amd64.deb",
+   "version": "1.29.1+git20261117.1745848-1menta1"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-utils",
+ "source_sha256": "9600f0338eeb055aec31f1c6151c43d930d872ec39bfec59ce160f3edaa8b6e0",
+ "target": "sid",
+ "upstream_version": "1.29.1+git20261117.1745848",
+ "version": "1.29.1+git20261117.1745848-1menta1"
+}

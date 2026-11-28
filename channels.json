@@ -1,0 +1,18 @@
+{
+ "channels": {
+  "stable": {
+   "base": "trixie",
+   "snapshot": "s-ab784e2440c7068b"
+  },
+  "staging": {
+   "base": "trixie",
+   "snapshot": "s-ab784e2440c7068b"
+  },
+  "unstable": {
+   "base": "sid",
+   "snapshot": "s-5756db1b7f1d7e15"
+  }
+ },
+ "generation": 39,
+ "schema_version": 1
+}

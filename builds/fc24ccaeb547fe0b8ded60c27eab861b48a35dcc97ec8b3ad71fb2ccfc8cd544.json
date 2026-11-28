@@ -1,0 +1,37 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "88143ac0b210c2913891554cff349aeff574c1100617a24c98bd5c0c1c78bb87",
+ "build_environment": "trixie",
+ "build_id": "sha256:fc24ccaeb547fe0b8ded60c27eab861b48a35dcc97ec8b3ad71fb2ccfc8cd544",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:fc24ccaeb547fe0b8ded60c27eab861b48a35dcc97ec8b3ad71fb2ccfc8cd544",
+   "file": "polo_1.0.1+git20261123.b9514ed-1menta2.deb13_amd64.deb",
+   "package": "polo",
+   "sha256": "5e4ffdf02a2ef2a4d2e98064220cb6ffcbca4ea941129e69c44806b923321402",
+   "size": 1098684,
+   "source": "polo",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/polo_1.0.1+git20261123.b9514ed-1menta2.deb13_amd64.deb",
+   "version": "1.0.1+git20261123.b9514ed-1menta2~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "polo",
+ "source_sha256": "1f8b461d4eb964887d0b837a799030e8b06d7ffd26886508cdc99426d968580a",
+ "target": "trixie",
+ "upstream_version": "1.0.1+git20261123.b9514ed",
+ "version": "1.0.1+git20261123.b9514ed-1menta2~deb13"
+}

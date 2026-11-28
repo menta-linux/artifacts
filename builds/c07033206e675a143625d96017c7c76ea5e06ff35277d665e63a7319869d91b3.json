@@ -1,0 +1,48 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "796cca1505fc436ccc51d4eb30daf8c673010ee0aedb5749fe24a1c9c905f8be",
+ "build_environment": "sid",
+ "build_id": "sha256:c07033206e675a143625d96017c7c76ea5e06ff35277d665e63a7319869d91b3",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "all",
+   "build_id": "sha256:c07033206e675a143625d96017c7c76ea5e06ff35277d665e63a7319869d91b3",
+   "file": "mate-control-center-common_1.29.1+git20261118.6779122-1menta1_all.deb",
+   "package": "mate-control-center-common",
+   "sha256": "61470fb1d2725d9d79306540221ca8f21a35e4bb2bcd0e69b01ef628da2d3fbf",
+   "size": 2176404,
+   "source": "mate-control-center",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-control-center-common_1.29.1+git20261118.6779122-1menta1_all.deb",
+   "version": "1.29.1+git20261118.6779122-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:c07033206e675a143625d96017c7c76ea5e06ff35277d665e63a7319869d91b3",
+   "file": "mate-control-center_1.29.1+git20261118.6779122-1menta1_amd64.deb",
+   "package": "mate-control-center",
+   "sha256": "66ef992f55daa3bce5218753ad3e869a8bcf4677e892249656146f8bdaf75d2d",
+   "size": 400656,
+   "source": "mate-control-center",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-control-center_1.29.1+git20261118.6779122-1menta1_amd64.deb",
+   "version": "1.29.1+git20261118.6779122-1menta1"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-control-center",
+ "source_sha256": "47f7c706c889bd7953044577eac64961309ba715142dd6ff5f964da121d4ea0f",
+ "target": "sid",
+ "upstream_version": "1.29.1+git20261118.6779122",
+ "version": "1.29.1+git20261118.6779122-1menta1"
+}

@@ -1,0 +1,48 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "cc1df793fdd940908ebddba92218578825b04c46a74b0d800d8a5bb0bf31e4ff",
+ "build_environment": "trixie",
+ "build_id": "sha256:60b889a6c3510bb68c47fa39803e8bc91166998086dfb03dfcbe94473319b972",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "all",
+   "build_id": "sha256:60b889a6c3510bb68c47fa39803e8bc91166998086dfb03dfcbe94473319b972",
+   "file": "mate-media-common_1.29.0-1menta2.deb13_all.deb",
+   "package": "mate-media-common",
+   "sha256": "de78bbe10d1860aaf0672fefea281b33657626a6c0b3d360eba48d923886d974",
+   "size": 175660,
+   "source": "mate-media",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-media-common_1.29.0-1menta2.deb13_all.deb",
+   "version": "1.29.0-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:60b889a6c3510bb68c47fa39803e8bc91166998086dfb03dfcbe94473319b972",
+   "file": "mate-media_1.29.0-1menta2.deb13_amd64.deb",
+   "package": "mate-media",
+   "sha256": "20a63b34f73dc33113e17b4cfa4338fcbf1aabeae0cd82d2573d1b2ee119c0bc",
+   "size": 99020,
+   "source": "mate-media",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-media_1.29.0-1menta2.deb13_amd64.deb",
+   "version": "1.29.0-1menta2~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-media",
+ "source_sha256": "25aa4ae5b2e40af4d5080b4a33ff134590b19036489c08241a34b51f00142629",
+ "target": "trixie",
+ "upstream_version": "1.29.0",
+ "version": "1.29.0-1menta2~deb13"
+}

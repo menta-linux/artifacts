@@ -1,0 +1,92 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "1adadcdde22a89b3e3128c03c89230a1de26c1a1db616317403f645dea4ab7db",
+ "build_environment": "trixie",
+ "build_id": "sha256:e711ed478fbd922662cbac9a6ea9416f36e2013ff3944b6e1dd26bff2c644c92",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "all",
+   "build_id": "sha256:e711ed478fbd922662cbac9a6ea9416f36e2013ff3944b6e1dd26bff2c644c92",
+   "file": "caja-common_1.29.1-1menta2.deb13_all.deb",
+   "package": "caja-common",
+   "sha256": "12f979de4bf0960bf89e0a6a4b833db0e83eba7195e168ac22cb23c09755e47a",
+   "size": 2381516,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/caja-common_1.29.1-1menta2.deb13_all.deb",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:e711ed478fbd922662cbac9a6ea9416f36e2013ff3944b6e1dd26bff2c644c92",
+   "file": "caja_1.29.1-1menta2.deb13_amd64.deb",
+   "package": "caja",
+   "sha256": "3cd2b3402e904c49ed9b1e808f092ca2608606286bba8383a2deda60d3fa6c94",
+   "size": 855896,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/caja_1.29.1-1menta2.deb13_amd64.deb",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:e711ed478fbd922662cbac9a6ea9416f36e2013ff3944b6e1dd26bff2c644c92",
+   "file": "gir1.2-caja-2.0_1.29.1-1menta2.deb13_amd64.deb",
+   "package": "gir1.2-caja-2.0",
+   "sha256": "db0ccc35854599a9b6162addcf01646fd4c99b0d5e191e3a55ae2f53346f3f77",
+   "size": 23436,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gir1.2-caja-2.0_1.29.1-1menta2.deb13_amd64.deb",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:e711ed478fbd922662cbac9a6ea9416f36e2013ff3944b6e1dd26bff2c644c92",
+   "file": "libcaja-extension-dev_1.29.1-1menta2.deb13_amd64.deb",
+   "package": "libcaja-extension-dev",
+   "sha256": "053e03d850c32d864fea620870b60ada19d5126bad40268defb48ae3df5d43fc",
+   "size": 35264,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libcaja-extension-dev_1.29.1-1menta2.deb13_amd64.deb",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:e711ed478fbd922662cbac9a6ea9416f36e2013ff3944b6e1dd26bff2c644c92",
+   "file": "libcaja-extension-doc_1.29.1-1menta2.deb13_all.deb",
+   "package": "libcaja-extension-doc",
+   "sha256": "c2db6a9d5db6845e0c907ab380e210164f7b910732b7f7694aed3d2e844e4141",
+   "size": 40940,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libcaja-extension-doc_1.29.1-1menta2.deb13_all.deb",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:e711ed478fbd922662cbac9a6ea9416f36e2013ff3944b6e1dd26bff2c644c92",
+   "file": "libcaja-extension1_1.29.1-1menta2.deb13_amd64.deb",
+   "package": "libcaja-extension1",
+   "sha256": "c8467de4285d8a9320348f3175db37c23516a51b60361de5655aabf5521442aa",
+   "size": 31612,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libcaja-extension1_1.29.1-1menta2.deb13_amd64.deb",
+   "version": "1.29.1-1menta2~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "caja",
+ "source_sha256": "79639a4168b3d88ddcb41e9f2838e58a537e018eac9dcbfb6dedcfaecfef4695",
+ "target": "trixie",
+ "upstream_version": "1.29.1",
+ "version": "1.29.1-1menta2~deb13"
+}

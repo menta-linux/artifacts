@@ -1,0 +1,37 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "9a9179ea90fdace206726ffcf62df4586a5be5c853f43c26b751b646c847e872",
+ "build_environment": "sid",
+ "build_id": "sha256:bc3954b2e4266fa1838193c63aeace5cb2e064c9a0a370ba951949d8577856ca",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:bc3954b2e4266fa1838193c63aeace5cb2e064c9a0a370ba951949d8577856ca",
+   "file": "mate-clipboard_2.0.1-1menta1_amd64.deb",
+   "package": "mate-clipboard",
+   "sha256": "abb88dc58ce0d369fbcdd854f5214ae6ed547165bf5614461072de03405f8ee8",
+   "size": 72272,
+   "source": "mate-clipboard",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-clipboard_2.0.1-1menta1_amd64.deb",
+   "version": "2.0.1-1menta1"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-clipboard",
+ "source_sha256": "6804e84a877df76cb7ec8302ff9be03da8b872cf68c14f1dbb3004b886f3a47e",
+ "target": "sid",
+ "upstream_version": "2.0.1",
+ "version": "2.0.1-1menta1"
+}

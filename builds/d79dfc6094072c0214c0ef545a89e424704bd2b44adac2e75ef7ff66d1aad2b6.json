@@ -1,0 +1,81 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "29c1272555304b285cdee48b116c3519dae1d8b39f6816b22634fad20254cd74",
+ "build_environment": "trixie",
+ "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "file": "gir1.2-libxfce4windowing-0.0_4.20.7-1menta1.deb13_amd64.deb",
+   "package": "gir1.2-libxfce4windowing-0.0",
+   "sha256": "3a81aa77e692980a4a8ccf007a10511d08d4ebcc5304d56c5019e3f2224cb5ef",
+   "size": 51296,
+   "source": "libxfce4windowing",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gir1.2-libxfce4windowing-0.0_4.20.7-1menta1.deb13_amd64.deb",
+   "version": "4.20.7-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "file": "gir1.2-libxfce4windowingui-0.0_4.20.7-1menta1.deb13_amd64.deb",
+   "package": "gir1.2-libxfce4windowingui-0.0",
+   "sha256": "8008150cad84e728251bda92f79b1965d12cc231fbef087d5225e166d43b9645",
+   "size": 46656,
+   "source": "libxfce4windowing",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gir1.2-libxfce4windowingui-0.0_4.20.7-1menta1.deb13_amd64.deb",
+   "version": "4.20.7-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "file": "libxfce4windowing-0-0_4.20.7-1menta1.deb13_amd64.deb",
+   "package": "libxfce4windowing-0-0",
+   "sha256": "8aa1883d3515168183df32c9f312b637cd4d496ec575fdba7ee75b40cec9de06",
+   "size": 123828,
+   "source": "libxfce4windowing",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libxfce4windowing-0-0_4.20.7-1menta1.deb13_amd64.deb",
+   "version": "4.20.7-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "file": "libxfce4windowing-0-dev_4.20.7-1menta1.deb13_amd64.deb",
+   "package": "libxfce4windowing-0-dev",
+   "sha256": "9c53013886499e22ab926473d9533594f81ab05d93e78edd39be8ac868baad0c",
+   "size": 106580,
+   "source": "libxfce4windowing",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libxfce4windowing-0-dev_4.20.7-1menta1.deb13_amd64.deb",
+   "version": "4.20.7-1menta1~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "file": "libxfce4windowing-common_4.20.7-1menta1.deb13_all.deb",
+   "package": "libxfce4windowing-common",
+   "sha256": "0b2ad13ea2c431a80754eb242c35c09e91d9f287b629734dcbb392e663c3e16d",
+   "size": 63240,
+   "source": "libxfce4windowing",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libxfce4windowing-common_4.20.7-1menta1.deb13_all.deb",
+   "version": "4.20.7-1menta1~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "libxfce4windowing",
+ "source_sha256": "ec4ae4420383e6e25b0b20cf1eddf310859cd40e860dd7c8ec20975bfb290a14",
+ "target": "trixie",
+ "upstream_version": "4.20.7",
+ "version": "4.20.7-1menta1~deb13"
+}

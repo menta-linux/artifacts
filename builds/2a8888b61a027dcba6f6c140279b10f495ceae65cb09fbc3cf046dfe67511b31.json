@@ -1,0 +1,70 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "fd6311d8969d330727854725c77d94c9e8e283820589194a999dc02650534fa8",
+ "build_environment": "trixie",
+ "build_id": "sha256:2a8888b61a027dcba6f6c140279b10f495ceae65cb09fbc3cf046dfe67511b31",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:2a8888b61a027dcba6f6c140279b10f495ceae65cb09fbc3cf046dfe67511b31",
+   "file": "libmatedict-dev_1.29.1+git20261117.1745848-1menta1.deb13_amd64.deb",
+   "package": "libmatedict-dev",
+   "sha256": "0d1b83f643534bc69a1aad8dfc3707c69e5ce13c23843b69e77bb158279d547a",
+   "size": 19224,
+   "source": "mate-utils",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libmatedict-dev_1.29.1+git20261117.1745848-1menta1.deb13_amd64.deb",
+   "version": "1.29.1+git20261117.1745848-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:2a8888b61a027dcba6f6c140279b10f495ceae65cb09fbc3cf046dfe67511b31",
+   "file": "libmatedict6_1.29.1+git20261117.1745848-1menta1.deb13_amd64.deb",
+   "package": "libmatedict6",
+   "sha256": "85de92b22daad5ef2353ce4ec61bb77d7ca693521557b8f78540e426c74a9814",
+   "size": 53928,
+   "source": "mate-utils",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libmatedict6_1.29.1+git20261117.1745848-1menta1.deb13_amd64.deb",
+   "version": "1.29.1+git20261117.1745848-1menta1~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:2a8888b61a027dcba6f6c140279b10f495ceae65cb09fbc3cf046dfe67511b31",
+   "file": "mate-utils-common_1.29.1+git20261117.1745848-1menta1.deb13_all.deb",
+   "package": "mate-utils-common",
+   "sha256": "7a534daa044a09eda56acd344d78fdb5a97df7a0515df89ab4fc396d2e0999d6",
+   "size": 6548548,
+   "source": "mate-utils",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-utils-common_1.29.1+git20261117.1745848-1menta1.deb13_all.deb",
+   "version": "1.29.1+git20261117.1745848-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:2a8888b61a027dcba6f6c140279b10f495ceae65cb09fbc3cf046dfe67511b31",
+   "file": "mate-utils_1.29.1+git20261117.1745848-1menta1.deb13_amd64.deb",
+   "package": "mate-utils",
+   "sha256": "fb0b6840acabf3198c016c3274e1b9b602837630f8385a785230c0940dcd6de8",
+   "size": 230692,
+   "source": "mate-utils",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-utils_1.29.1+git20261117.1745848-1menta1.deb13_amd64.deb",
+   "version": "1.29.1+git20261117.1745848-1menta1~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-utils",
+ "source_sha256": "3b7a128732bb93ffa8056b9f7b177ea4c0fe816adacd2772b2fb95fecd5fd5d0",
+ "target": "trixie",
+ "upstream_version": "1.29.1+git20261117.1745848",
+ "version": "1.29.1+git20261117.1745848-1menta1~deb13"
+}

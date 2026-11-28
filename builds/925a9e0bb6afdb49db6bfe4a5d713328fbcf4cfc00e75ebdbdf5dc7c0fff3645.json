@@ -1,0 +1,92 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "640dfe89ee8eb189b4806953404eba5c246be5fc0dc80b75a941cda4a3d3e6ca",
+ "build_environment": "trixie",
+ "build_id": "sha256:925a9e0bb6afdb49db6bfe4a5d713328fbcf4cfc00e75ebdbdf5dc7c0fff3645",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:925a9e0bb6afdb49db6bfe4a5d713328fbcf4cfc00e75ebdbdf5dc7c0fff3645",
+   "file": "gir1.2-matepanelapplet-4.0_1.29.2-1menta2.deb13_amd64.deb",
+   "package": "gir1.2-matepanelapplet-4.0",
+   "sha256": "9eece3cd7d82c1df2f38dcb18a0571ae68feadc488ef5f5de936efb8acffedc8",
+   "size": 26852,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gir1.2-matepanelapplet-4.0_1.29.2-1menta2.deb13_amd64.deb",
+   "version": "1.29.2-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:925a9e0bb6afdb49db6bfe4a5d713328fbcf4cfc00e75ebdbdf5dc7c0fff3645",
+   "file": "libmate-panel-applet-4-2_1.29.2-1menta2.deb13_amd64.deb",
+   "package": "libmate-panel-applet-4-2",
+   "sha256": "e18e44c47c01de6c4cc8725db51ec81c5f90f5a2ffed5efe12bbdc1f6190573b",
+   "size": 45400,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libmate-panel-applet-4-2_1.29.2-1menta2.deb13_amd64.deb",
+   "version": "1.29.2-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:925a9e0bb6afdb49db6bfe4a5d713328fbcf4cfc00e75ebdbdf5dc7c0fff3645",
+   "file": "libmate-panel-applet-dev_1.29.2-1menta2.deb13_amd64.deb",
+   "package": "libmate-panel-applet-dev",
+   "sha256": "d3173717498ef34dd03932f552f47eb5baf65c2dc5b1211c922d5a7134f68149",
+   "size": 31208,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libmate-panel-applet-dev_1.29.2-1menta2.deb13_amd64.deb",
+   "version": "1.29.2-1menta2~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:925a9e0bb6afdb49db6bfe4a5d713328fbcf4cfc00e75ebdbdf5dc7c0fff3645",
+   "file": "libmate-panel-applet-doc_1.29.2-1menta2.deb13_all.deb",
+   "package": "libmate-panel-applet-doc",
+   "sha256": "6f3bfb94a28e2de41e440d688d6e7449346366537440b81e8a3efa4765b2d6c4",
+   "size": 38968,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libmate-panel-applet-doc_1.29.2-1menta2.deb13_all.deb",
+   "version": "1.29.2-1menta2~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:925a9e0bb6afdb49db6bfe4a5d713328fbcf4cfc00e75ebdbdf5dc7c0fff3645",
+   "file": "mate-panel-common_1.29.2-1menta2.deb13_all.deb",
+   "package": "mate-panel-common",
+   "sha256": "b216aaded1d825c6f81df47270d068e06df87db4d0945dd0a756274eec9891ae",
+   "size": 1466856,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-panel-common_1.29.2-1menta2.deb13_all.deb",
+   "version": "1.29.2-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:925a9e0bb6afdb49db6bfe4a5d713328fbcf4cfc00e75ebdbdf5dc7c0fff3645",
+   "file": "mate-panel_1.29.2-1menta2.deb13_amd64.deb",
+   "package": "mate-panel",
+   "sha256": "97c7ddceeaa4566b496458a8c86bb975a5fff311049a8573f6af1ff8edb84736",
+   "size": 604880,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-panel_1.29.2-1menta2.deb13_amd64.deb",
+   "version": "1.29.2-1menta2~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-panel",
+ "source_sha256": "cc7ba9ee0c339f0780f0bbd7502d1b4464846ef117a3fd03207d347a19eb600d",
+ "target": "trixie",
+ "upstream_version": "1.29.2",
+ "version": "1.29.2-1menta2~deb13"
+}

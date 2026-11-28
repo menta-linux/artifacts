@@ -1,0 +1,37 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "bb91ca112f32f13871f68e3598cdc838f60b0de4aa1baa0e8e1fe699215af2bb",
+ "build_environment": "sid",
+ "build_id": "sha256:7573661b6719504666d3b63a29eeca72c54ce6cc84461e69a6868e91548d8714",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:7573661b6719504666d3b63a29eeca72c54ce6cc84461e69a6868e91548d8714",
+   "file": "polo-tweaks_1.0.0+git20261118.fb6ab1b-1menta1_amd64.deb",
+   "package": "polo-tweaks",
+   "sha256": "34ee26a62cbbe16dd45c1579e8b218ca5dcb2f5c374273c01bf5da041a84c5ab",
+   "size": 71968,
+   "source": "polo-tweaks",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/polo-tweaks_1.0.0+git20261118.fb6ab1b-1menta1_amd64.deb",
+   "version": "1.0.0+git20261118.fb6ab1b-1menta1"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "polo-tweaks",
+ "source_sha256": "e3d63d5e16874ac1c6b4d0d95434c44318cf969119c6e7fce85dc200b06ce08e",
+ "target": "sid",
+ "upstream_version": "1.0.0+git20261118.fb6ab1b",
+ "version": "1.0.0+git20261118.fb6ab1b-1menta1"
+}

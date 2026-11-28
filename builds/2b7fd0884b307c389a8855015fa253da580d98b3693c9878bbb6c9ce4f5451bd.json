@@ -1,0 +1,37 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "3479745ad54e9d83f7fd72420e02ea5300b5dbb20ad7b378276db6936927f547",
+ "build_environment": "trixie",
+ "build_id": "sha256:2b7fd0884b307c389a8855015fa253da580d98b3693c9878bbb6c9ce4f5451bd",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:2b7fd0884b307c389a8855015fa253da580d98b3693c9878bbb6c9ce4f5451bd",
+   "file": "mate-redshift_0.1.0+git20261022.c2f3fba-1menta2.deb13_amd64.deb",
+   "package": "mate-redshift",
+   "sha256": "d82f328d7fef6648466dd1e908bf5bcfd8ff05ca22b79b7196bd5011acbe5c9d",
+   "size": 38744,
+   "source": "mate-redshift",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-redshift_0.1.0+git20261022.c2f3fba-1menta2.deb13_amd64.deb",
+   "version": "0.1.0+git20261022.c2f3fba-1menta2~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-redshift",
+ "source_sha256": "e18824fa9d421712ab800023185eb4818ae8b45b29f346d34233666daddab267",
+ "target": "trixie",
+ "upstream_version": "0.1.0+git20261022.c2f3fba",
+ "version": "0.1.0+git20261022.c2f3fba-1menta2~deb13"
+}

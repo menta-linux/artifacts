@@ -1,0 +1,165 @@
+{
+ "base": "sid",
+ "builds": [
+  "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+  "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+  "sha256:df911cda6a39a91b2bf80c2bb951a4e1acf9cfc88627010bd29032951fee7479"
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "gir1.2-matedesktop-2.0_1.29.1-1menta2_amd64.deb",
+   "package": "gir1.2-matedesktop-2.0",
+   "sha256": "e03c1a9940cb0e583dc89de96b05b808bbe01bff71fa1aeacf3f22572bba029f",
+   "size": 21440,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/gir1.2-matedesktop-2.0_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "file": "libmarco-dev_1.29.1-1menta1_amd64.deb",
+   "package": "libmarco-dev",
+   "sha256": "766e0a2390c5e462c390d9b5954bbeaab5cb0017fe42accb6ab03b1ee6ec5b4e",
+   "size": 29328,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmarco-dev_1.29.1-1menta1_amd64.deb",
+   "version": "1.29.1-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "file": "libmarco-private2_1.29.1-1menta1_amd64.deb",
+   "package": "libmarco-private2",
+   "sha256": "d5aad87a4563b910ddc2c9c6d3aeb7c09cac23cb3cba55e9061aca33ca92436d",
+   "size": 288972,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmarco-private2_1.29.1-1menta1_amd64.deb",
+   "version": "1.29.1-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "libmate-desktop-2-17t64_1.29.1-1menta2_amd64.deb",
+   "package": "libmate-desktop-2-17t64",
+   "sha256": "043aff5f43dbdcf31ac43bdeefb13e7dd10984c7af20916bac32a9fe332a64d5",
+   "size": 129576,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmate-desktop-2-17t64_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "libmate-desktop-dev_1.29.1-1menta2_amd64.deb",
+   "package": "libmate-desktop-dev",
+   "sha256": "683441c7fa48375758bd1e2543e73a7305ce6fba1d45b1e6080d30bf4c1b15c3",
+   "size": 52008,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmate-desktop-dev_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "libmate-desktop-doc_1.29.1-1menta2_all.deb",
+   "package": "libmate-desktop-doc",
+   "sha256": "c98ac0aea443deb9173fd65a0b56a49899a4143e4e2b29a270140b6ecc7d3bf5",
+   "size": 37060,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmate-desktop-doc_1.29.1-1menta2_all.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "file": "marco_1.29.1-1menta1_amd64.deb",
+   "package": "marco",
+   "sha256": "952521f38ede82403f5bc0344274cdd743652607d82d0c4dedc508f9e831a756",
+   "size": 39332,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/marco_1.29.1-1menta1_amd64.deb",
+   "version": "1.29.1-1menta1"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "file": "marco-common_1.29.1-1menta1_all.deb",
+   "package": "marco-common",
+   "sha256": "47ea7e689128e33005cb71f22d85573c332771271002f7299c8f3782a09a8121",
+   "size": 734824,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/marco-common_1.29.1-1menta1_all.deb",
+   "version": "1.29.1-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "mate-desktop_1.29.1-1menta2_amd64.deb",
+   "package": "mate-desktop",
+   "sha256": "ec783ae2a5ae831ca2aa706ad48479e6ece1c57c1d5cb778c2b6611770966a2d",
+   "size": 31296,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-desktop_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "mate-desktop-common_1.29.1-1menta2_all.deb",
+   "package": "mate-desktop-common",
+   "sha256": "ddf18e02d287ccbfb830d9a73595338292c8d232af15ac5419e17bd600951d75",
+   "size": 528048,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-desktop-common_1.29.1-1menta2_all.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:df911cda6a39a91b2bf80c2bb951a4e1acf9cfc88627010bd29032951fee7479",
+   "file": "mate-fprint_1.0.0-1menta1_amd64.deb",
+   "package": "mate-fprint",
+   "sha256": "45c8f52c444fe0c60fec9425548fa2e5442f8fb6c309a12b4342f541be9fa7b3",
+   "size": 23984,
+   "source": "mate-fprint",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-fprint_1.0.0-1menta1_amd64.deb",
+   "version": "1.0.0-1menta1"
+  }
+ ],
+ "previous": "s-358b89cb993ef14c",
+ "schema_version": 1,
+ "snapshot_id": "s-fef699a0feaa664a",
+ "sources": {
+  "marco": {
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "version": "1.29.1-1menta1"
+  },
+  "mate-desktop": {
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "version": "1.29.1-1menta2"
+  },
+  "mate-fprint": {
+   "build_id": "sha256:df911cda6a39a91b2bf80c2bb951a4e1acf9cfc88627010bd29032951fee7479",
+   "version": "1.0.0-1menta1"
+  }
+ },
+ "validation": [
+  {
+   "rule": "REPO-002",
+   "status": "PASS",
+   "summary": "11 distinct package identities"
+  },
+  {
+   "rule": "REPO-003",
+   "status": "PASS",
+   "summary": "no undeclared file sharing across 474 paths"
+  },
+  {
+   "rule": "REPO-001",
+   "status": "PASS",
+   "summary": "all 11 binary packages of the set are installable together on sid"
+  }
+ ]
+}

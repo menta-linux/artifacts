@@ -1,0 +1,307 @@
+{
+ "base": "trixie",
+ "builds": [
+  "sha256:6ab321199fe7a615a2ecadb0ea030c6802b0e42c0f7b0ccbcd022e6868bf3438",
+  "sha256:925a9e0bb6afdb49db6bfe4a5d713328fbcf4cfc00e75ebdbdf5dc7c0fff3645",
+  "sha256:c2d71e9b7cc26af557d9cc7451d4bdd9384eef6deb7c4933f29799789d35758b",
+  "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+  "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3"
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "file": "gir1.2-gtklayershell-0.1_0.10.1-1menta1.deb13_amd64.deb",
+   "package": "gir1.2-gtklayershell-0.1",
+   "sha256": "b832df0a760373f58f62ac3068a1e205e5f9e6e31e8bcc857c823dc8f3a20492",
+   "size": 9460,
+   "source": "gtk-layer-shell",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gir1.2-gtklayershell-0.1_0.10.1-1menta1.deb13_amd64.deb",
+   "version": "0.10.1-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "file": "gir1.2-libxfce4windowing-0.0_4.20.7-1menta1.deb13_amd64.deb",
+   "package": "gir1.2-libxfce4windowing-0.0",
+   "sha256": "3a81aa77e692980a4a8ccf007a10511d08d4ebcc5304d56c5019e3f2224cb5ef",
+   "size": 51296,
+   "source": "libxfce4windowing",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gir1.2-libxfce4windowing-0.0_4.20.7-1menta1.deb13_amd64.deb",
+   "version": "4.20.7-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "file": "gir1.2-libxfce4windowingui-0.0_4.20.7-1menta1.deb13_amd64.deb",
+   "package": "gir1.2-libxfce4windowingui-0.0",
+   "sha256": "8008150cad84e728251bda92f79b1965d12cc231fbef087d5225e166d43b9645",
+   "size": 46656,
+   "source": "libxfce4windowing",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gir1.2-libxfce4windowingui-0.0_4.20.7-1menta1.deb13_amd64.deb",
+   "version": "4.20.7-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:6ab321199fe7a615a2ecadb0ea030c6802b0e42c0f7b0ccbcd022e6868bf3438",
+   "file": "gir1.2-matedesktop-2.0_1.29.1-1menta2.deb13_amd64.deb",
+   "package": "gir1.2-matedesktop-2.0",
+   "sha256": "d2586d5e448db98b7325f57b48a1be1d7688979f752ad85602729ab89b4f03e3",
+   "size": 22448,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gir1.2-matedesktop-2.0_1.29.1-1menta2.deb13_amd64.deb",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:925a9e0bb6afdb49db6bfe4a5d713328fbcf4cfc00e75ebdbdf5dc7c0fff3645",
+   "file": "gir1.2-matepanelapplet-4.0_1.29.2-1menta2.deb13_amd64.deb",
+   "package": "gir1.2-matepanelapplet-4.0",
+   "sha256": "9eece3cd7d82c1df2f38dcb18a0571ae68feadc488ef5f5de936efb8acffedc8",
+   "size": 26852,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gir1.2-matepanelapplet-4.0_1.29.2-1menta2.deb13_amd64.deb",
+   "version": "1.29.2-1menta2~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "file": "gtk-layer-shell-doc_0.10.1-1menta1.deb13_all.deb",
+   "package": "gtk-layer-shell-doc",
+   "sha256": "6e55722a1e38a5a92d49688fd678b0e2fc59cc4cb25876e23c5623c03fc19254",
+   "size": 21056,
+   "source": "gtk-layer-shell",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gtk-layer-shell-doc_0.10.1-1menta1.deb13_all.deb",
+   "version": "0.10.1-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "file": "gtk-layer-shell-examples_0.10.1-1menta1.deb13_amd64.deb",
+   "package": "gtk-layer-shell-examples",
+   "sha256": "656f48494005bbc768d97f389b1e1a39d332b53a9ae8a8b52050862c539b7768",
+   "size": 25664,
+   "source": "gtk-layer-shell",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gtk-layer-shell-examples_0.10.1-1menta1.deb13_amd64.deb",
+   "version": "0.10.1-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "file": "libgtk-layer-shell-dev_0.10.1-1menta1.deb13_amd64.deb",
+   "package": "libgtk-layer-shell-dev",
+   "sha256": "d75ee312c6107cd3ca0bfb74e1aa9065665d96fc5b7f2007f5d072a4308b4d21",
+   "size": 14704,
+   "source": "gtk-layer-shell",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libgtk-layer-shell-dev_0.10.1-1menta1.deb13_amd64.deb",
+   "version": "0.10.1-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "file": "libgtk-layer-shell0_0.10.1-1menta1.deb13_amd64.deb",
+   "package": "libgtk-layer-shell0",
+   "sha256": "9c2f8ed8b6ddbdebd6473458189a54bf0dde1352efb74800ce60466a69dec0e2",
+   "size": 59968,
+   "source": "gtk-layer-shell",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libgtk-layer-shell0_0.10.1-1menta1.deb13_amd64.deb",
+   "version": "0.10.1-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:6ab321199fe7a615a2ecadb0ea030c6802b0e42c0f7b0ccbcd022e6868bf3438",
+   "file": "libmate-desktop-2-17t64_1.29.1-1menta2.deb13_amd64.deb",
+   "package": "libmate-desktop-2-17t64",
+   "sha256": "7fe6b5b9efc706c9029a48826835640f27ff7eeccf1c8b6a733b16b545105611",
+   "size": 123424,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libmate-desktop-2-17t64_1.29.1-1menta2.deb13_amd64.deb",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:6ab321199fe7a615a2ecadb0ea030c6802b0e42c0f7b0ccbcd022e6868bf3438",
+   "file": "libmate-desktop-dev_1.29.1-1menta2.deb13_amd64.deb",
+   "package": "libmate-desktop-dev",
+   "sha256": "bf51bcc3a2b002195a0ef5eb8d979587a7ce08177e88eb164b6f9da025668988",
+   "size": 53036,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libmate-desktop-dev_1.29.1-1menta2.deb13_amd64.deb",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:6ab321199fe7a615a2ecadb0ea030c6802b0e42c0f7b0ccbcd022e6868bf3438",
+   "file": "libmate-desktop-doc_1.29.1-1menta2.deb13_all.deb",
+   "package": "libmate-desktop-doc",
+   "sha256": "8c26ba13715fdb478590e14b5addd32251ff77fd30a3e04a85ed51b049e34b93",
+   "size": 38116,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libmate-desktop-doc_1.29.1-1menta2.deb13_all.deb",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:925a9e0bb6afdb49db6bfe4a5d713328fbcf4cfc00e75ebdbdf5dc7c0fff3645",
+   "file": "libmate-panel-applet-4-2_1.29.2-1menta2.deb13_amd64.deb",
+   "package": "libmate-panel-applet-4-2",
+   "sha256": "e18e44c47c01de6c4cc8725db51ec81c5f90f5a2ffed5efe12bbdc1f6190573b",
+   "size": 45400,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libmate-panel-applet-4-2_1.29.2-1menta2.deb13_amd64.deb",
+   "version": "1.29.2-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:925a9e0bb6afdb49db6bfe4a5d713328fbcf4cfc00e75ebdbdf5dc7c0fff3645",
+   "file": "libmate-panel-applet-dev_1.29.2-1menta2.deb13_amd64.deb",
+   "package": "libmate-panel-applet-dev",
+   "sha256": "d3173717498ef34dd03932f552f47eb5baf65c2dc5b1211c922d5a7134f68149",
+   "size": 31208,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libmate-panel-applet-dev_1.29.2-1menta2.deb13_amd64.deb",
+   "version": "1.29.2-1menta2~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:925a9e0bb6afdb49db6bfe4a5d713328fbcf4cfc00e75ebdbdf5dc7c0fff3645",
+   "file": "libmate-panel-applet-doc_1.29.2-1menta2.deb13_all.deb",
+   "package": "libmate-panel-applet-doc",
+   "sha256": "6f3bfb94a28e2de41e440d688d6e7449346366537440b81e8a3efa4765b2d6c4",
+   "size": 38968,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libmate-panel-applet-doc_1.29.2-1menta2.deb13_all.deb",
+   "version": "1.29.2-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "file": "libxfce4windowing-0-0_4.20.7-1menta1.deb13_amd64.deb",
+   "package": "libxfce4windowing-0-0",
+   "sha256": "8aa1883d3515168183df32c9f312b637cd4d496ec575fdba7ee75b40cec9de06",
+   "size": 123828,
+   "source": "libxfce4windowing",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libxfce4windowing-0-0_4.20.7-1menta1.deb13_amd64.deb",
+   "version": "4.20.7-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "file": "libxfce4windowing-0-dev_4.20.7-1menta1.deb13_amd64.deb",
+   "package": "libxfce4windowing-0-dev",
+   "sha256": "9c53013886499e22ab926473d9533594f81ab05d93e78edd39be8ac868baad0c",
+   "size": 106580,
+   "source": "libxfce4windowing",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libxfce4windowing-0-dev_4.20.7-1menta1.deb13_amd64.deb",
+   "version": "4.20.7-1menta1~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "file": "libxfce4windowing-common_4.20.7-1menta1.deb13_all.deb",
+   "package": "libxfce4windowing-common",
+   "sha256": "0b2ad13ea2c431a80754eb242c35c09e91d9f287b629734dcbb392e663c3e16d",
+   "size": 63240,
+   "source": "libxfce4windowing",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libxfce4windowing-common_4.20.7-1menta1.deb13_all.deb",
+   "version": "4.20.7-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:6ab321199fe7a615a2ecadb0ea030c6802b0e42c0f7b0ccbcd022e6868bf3438",
+   "file": "mate-desktop_1.29.1-1menta2.deb13_amd64.deb",
+   "package": "mate-desktop",
+   "sha256": "6d4fca564f711d0a2d271648dcc008c4806652b76c4661982b0d47ad43c779f5",
+   "size": 32464,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-desktop_1.29.1-1menta2.deb13_amd64.deb",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:6ab321199fe7a615a2ecadb0ea030c6802b0e42c0f7b0ccbcd022e6868bf3438",
+   "file": "mate-desktop-common_1.29.1-1menta2.deb13_all.deb",
+   "package": "mate-desktop-common",
+   "sha256": "b29b1ecc30960944a281757c5e6f741d31cbe648e177daba79c540ff6b4c100a",
+   "size": 529124,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-desktop-common_1.29.1-1menta2.deb13_all.deb",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:c2d71e9b7cc26af557d9cc7451d4bdd9384eef6deb7c4933f29799789d35758b",
+   "file": "mate-fprint_1.0.0-1menta1.deb13_amd64.deb",
+   "package": "mate-fprint",
+   "sha256": "e55239c63fc8e37e072548f33ba9f6dfcb491430a15dc4aa1a6ea548d915b874",
+   "size": 23080,
+   "source": "mate-fprint",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-fprint_1.0.0-1menta1.deb13_amd64.deb",
+   "version": "1.0.0-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:925a9e0bb6afdb49db6bfe4a5d713328fbcf4cfc00e75ebdbdf5dc7c0fff3645",
+   "file": "mate-panel_1.29.2-1menta2.deb13_amd64.deb",
+   "package": "mate-panel",
+   "sha256": "97c7ddceeaa4566b496458a8c86bb975a5fff311049a8573f6af1ff8edb84736",
+   "size": 604880,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-panel_1.29.2-1menta2.deb13_amd64.deb",
+   "version": "1.29.2-1menta2~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:925a9e0bb6afdb49db6bfe4a5d713328fbcf4cfc00e75ebdbdf5dc7c0fff3645",
+   "file": "mate-panel-common_1.29.2-1menta2.deb13_all.deb",
+   "package": "mate-panel-common",
+   "sha256": "b216aaded1d825c6f81df47270d068e06df87db4d0945dd0a756274eec9891ae",
+   "size": 1466856,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-panel-common_1.29.2-1menta2.deb13_all.deb",
+   "version": "1.29.2-1menta2~deb13"
+  }
+ ],
+ "previous": "s-c7be28f51a1cbfea",
+ "schema_version": 1,
+ "snapshot_id": "s-cbc13ab898d119e9",
+ "sources": {
+  "gtk-layer-shell": {
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "version": "0.10.1-1menta1~deb13"
+  },
+  "libxfce4windowing": {
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "version": "4.20.7-1menta1~deb13"
+  },
+  "mate-desktop": {
+   "build_id": "sha256:6ab321199fe7a615a2ecadb0ea030c6802b0e42c0f7b0ccbcd022e6868bf3438",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  "mate-fprint": {
+   "build_id": "sha256:c2d71e9b7cc26af557d9cc7451d4bdd9384eef6deb7c4933f29799789d35758b",
+   "version": "1.0.0-1menta1~deb13"
+  },
+  "mate-panel": {
+   "build_id": "sha256:925a9e0bb6afdb49db6bfe4a5d713328fbcf4cfc00e75ebdbdf5dc7c0fff3645",
+   "version": "1.29.2-1menta2~deb13"
+  }
+ },
+ "validation": [
+  {
+   "rule": "REPO-002",
+   "status": "PASS",
+   "summary": "23 distinct package identities"
+  },
+  {
+   "rule": "REPO-003",
+   "status": "PASS",
+   "summary": "no undeclared file sharing across 1552 paths"
+  },
+  {
+   "rule": "REPO-001",
+   "status": "PASS",
+   "summary": "all 23 binary packages of the set are installable together on trixie-native"
+  }
+ ]
+}

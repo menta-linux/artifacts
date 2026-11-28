@@ -1,0 +1,59 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "b188a5ce4fd6b718ffafa8578b4492105395f932f4e0d8a3a54c4cdb2c81f18b",
+ "build_environment": "sid",
+ "build_id": "sha256:463a4c5517db9b1b4b177908169957494727ad6dad2aa8ebcd499dc560351a57",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "all",
+   "build_id": "sha256:463a4c5517db9b1b4b177908169957494727ad6dad2aa8ebcd499dc560351a57",
+   "file": "mate-settings-daemon-common_1.29.1+git20261118.e39a109-1menta1_all.deb",
+   "package": "mate-settings-daemon-common",
+   "sha256": "24b1742af4215d11ad91fb5e4e853c3a3c33fdf9e66f49b9ceeed4441eca6ed6",
+   "size": 405548,
+   "source": "mate-settings-daemon",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-settings-daemon-common_1.29.1+git20261118.e39a109-1menta1_all.deb",
+   "version": "1.29.1+git20261118.e39a109-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:463a4c5517db9b1b4b177908169957494727ad6dad2aa8ebcd499dc560351a57",
+   "file": "mate-settings-daemon-dev_1.29.1+git20261118.e39a109-1menta1_amd64.deb",
+   "package": "mate-settings-daemon-dev",
+   "sha256": "1b24f8241f096199d3836b9591074e34fb11242339d27f3af893488e0722ec18",
+   "size": 8148,
+   "source": "mate-settings-daemon",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-settings-daemon-dev_1.29.1+git20261118.e39a109-1menta1_amd64.deb",
+   "version": "1.29.1+git20261118.e39a109-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:463a4c5517db9b1b4b177908169957494727ad6dad2aa8ebcd499dc560351a57",
+   "file": "mate-settings-daemon_1.29.1+git20261118.e39a109-1menta1_amd64.deb",
+   "package": "mate-settings-daemon",
+   "sha256": "23c1b5fc5b6bf1c7b29e2ae5030c46b3a235d556de579cb42da6f9c0c782e0fd",
+   "size": 227708,
+   "source": "mate-settings-daemon",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-settings-daemon_1.29.1+git20261118.e39a109-1menta1_amd64.deb",
+   "version": "1.29.1+git20261118.e39a109-1menta1"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-settings-daemon",
+ "source_sha256": "3726576c6ce99309e097e67b81543d469232765ede0cded4cd10bc6cb54530ec",
+ "target": "sid",
+ "upstream_version": "1.29.1+git20261118.e39a109",
+ "version": "1.29.1+git20261118.e39a109-1menta1"
+}

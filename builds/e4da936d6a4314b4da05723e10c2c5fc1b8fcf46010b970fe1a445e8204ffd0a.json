@@ -1,0 +1,48 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "45bcc543604d0bb5449cb49e6fe9c7e1600fe42518ea32a6545f2c62eff07578",
+ "build_environment": "sid",
+ "build_id": "sha256:e4da936d6a4314b4da05723e10c2c5fc1b8fcf46010b970fe1a445e8204ffd0a",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "all",
+   "build_id": "sha256:e4da936d6a4314b4da05723e10c2c5fc1b8fcf46010b970fe1a445e8204ffd0a",
+   "file": "mate-media-common_1.29.0-1menta2_all.deb",
+   "package": "mate-media-common",
+   "sha256": "44ea1c8bf4966fa9729ea722af311b7301575da3ca382a2fd08cd96978282e1b",
+   "size": 174944,
+   "source": "mate-media",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-media-common_1.29.0-1menta2_all.deb",
+   "version": "1.29.0-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:e4da936d6a4314b4da05723e10c2c5fc1b8fcf46010b970fe1a445e8204ffd0a",
+   "file": "mate-media_1.29.0-1menta2_amd64.deb",
+   "package": "mate-media",
+   "sha256": "e866ac5210f9d4f6c834e20fffa8a908716c239593431c660209a87461b936bb",
+   "size": 102380,
+   "source": "mate-media",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-media_1.29.0-1menta2_amd64.deb",
+   "version": "1.29.0-1menta2"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-media",
+ "source_sha256": "01925051bf4373ae45e7c24cad961d869c3a9d685ddce77b2fc30354229ea6fe",
+ "target": "sid",
+ "upstream_version": "1.29.0",
+ "version": "1.29.0-1menta2"
+}

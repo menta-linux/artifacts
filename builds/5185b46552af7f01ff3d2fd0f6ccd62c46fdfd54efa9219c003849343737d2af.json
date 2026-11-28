@@ -1,0 +1,70 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "f3aa45504b3dd1b3c9f9bd164ee895aa376ecd0b724394e22ae34c8e239f01f3",
+ "build_environment": "sid",
+ "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "file": "libmarco-dev_1.29.1-1menta1_amd64.deb",
+   "package": "libmarco-dev",
+   "sha256": "766e0a2390c5e462c390d9b5954bbeaab5cb0017fe42accb6ab03b1ee6ec5b4e",
+   "size": 29328,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmarco-dev_1.29.1-1menta1_amd64.deb",
+   "version": "1.29.1-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "file": "libmarco-private2_1.29.1-1menta1_amd64.deb",
+   "package": "libmarco-private2",
+   "sha256": "d5aad87a4563b910ddc2c9c6d3aeb7c09cac23cb3cba55e9061aca33ca92436d",
+   "size": 288972,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmarco-private2_1.29.1-1menta1_amd64.deb",
+   "version": "1.29.1-1menta1"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "file": "marco-common_1.29.1-1menta1_all.deb",
+   "package": "marco-common",
+   "sha256": "47ea7e689128e33005cb71f22d85573c332771271002f7299c8f3782a09a8121",
+   "size": 734824,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/marco-common_1.29.1-1menta1_all.deb",
+   "version": "1.29.1-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "file": "marco_1.29.1-1menta1_amd64.deb",
+   "package": "marco",
+   "sha256": "952521f38ede82403f5bc0344274cdd743652607d82d0c4dedc508f9e831a756",
+   "size": 39332,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/marco_1.29.1-1menta1_amd64.deb",
+   "version": "1.29.1-1menta1"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "marco",
+ "source_sha256": "8812007c1bb3a4c163951f66e94edc49151c0562f2a8fe2ae88e148b518fa817",
+ "target": "sid",
+ "upstream_version": "1.29.1",
+ "version": "1.29.1-1menta1"
+}

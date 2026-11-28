@@ -1,0 +1,70 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "b5d928ab342fe4d60622b9eb066c59d49b805e2960e85103bf4d88fa3714b6c6",
+ "build_environment": "trixie",
+ "build_id": "sha256:51034e5a2dbe0f93c5e565cbe629b169380d90f13269bed1ac5f8771da657b42",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:51034e5a2dbe0f93c5e565cbe629b169380d90f13269bed1ac5f8771da657b42",
+   "file": "libmarco-dev_1.29.1-1menta1.deb13_amd64.deb",
+   "package": "libmarco-dev",
+   "sha256": "e08793027fb1ef886e1ad7e99e8d778de1f3a7d4f032e9ddeda3ba9efc205129",
+   "size": 30752,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libmarco-dev_1.29.1-1menta1.deb13_amd64.deb",
+   "version": "1.29.1-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:51034e5a2dbe0f93c5e565cbe629b169380d90f13269bed1ac5f8771da657b42",
+   "file": "libmarco-private2_1.29.1-1menta1.deb13_amd64.deb",
+   "package": "libmarco-private2",
+   "sha256": "1b96109faa53c1882c696f29a30fc078cb51da4e2298c7a9e30ac89ca328da69",
+   "size": 278576,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libmarco-private2_1.29.1-1menta1.deb13_amd64.deb",
+   "version": "1.29.1-1menta1~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:51034e5a2dbe0f93c5e565cbe629b169380d90f13269bed1ac5f8771da657b42",
+   "file": "marco-common_1.29.1-1menta1.deb13_all.deb",
+   "package": "marco-common",
+   "sha256": "91912234fb38d4ec7cfaa6f1c5660b77573f42f9dc1ce31ea2526b38d74c6b24",
+   "size": 735780,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/marco-common_1.29.1-1menta1.deb13_all.deb",
+   "version": "1.29.1-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:51034e5a2dbe0f93c5e565cbe629b169380d90f13269bed1ac5f8771da657b42",
+   "file": "marco_1.29.1-1menta1.deb13_amd64.deb",
+   "package": "marco",
+   "sha256": "fee07d4096cd7a1ae4ece359692c3ef63cd17730366e75388cfdea9c001e36d3",
+   "size": 40824,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/marco_1.29.1-1menta1.deb13_amd64.deb",
+   "version": "1.29.1-1menta1~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "marco",
+ "source_sha256": "4ec4ca3b97a17ae9921cccadc24399b90c3c07067b7e60da89486f6bb46ef6ca",
+ "target": "trixie",
+ "upstream_version": "1.29.1",
+ "version": "1.29.1-1menta1~deb13"
+}

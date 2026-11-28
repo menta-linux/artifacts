@@ -1,0 +1,48 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "6ed7468bb5a7b7eb734a4b4dedea8456c28026b53abbe77f3ebd4aa3306a45ec",
+ "build_environment": "sid",
+ "build_id": "sha256:d7aead6416c1410837b62ec950253c79df19eefd71f5f7d2e42bbb053ab04b37",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "all",
+   "build_id": "sha256:d7aead6416c1410837b62ec950253c79df19eefd71f5f7d2e42bbb053ab04b37",
+   "file": "mate-power-manager-common_1.29.0+git20260921.4cf7346-1menta1_all.deb",
+   "package": "mate-power-manager-common",
+   "sha256": "35f7d16b9e7861e6c9a83fffbb3476dad608f4a102d4fa735b38d1df2351ffc6",
+   "size": 6064380,
+   "source": "mate-power-manager",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-power-manager-common_1.29.0+git20260921.4cf7346-1menta1_all.deb",
+   "version": "1.29.0+git20260921.4cf7346-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:d7aead6416c1410837b62ec950253c79df19eefd71f5f7d2e42bbb053ab04b37",
+   "file": "mate-power-manager_1.29.0+git20260921.4cf7346-1menta1_amd64.deb",
+   "package": "mate-power-manager",
+   "sha256": "4846258aff8f3a2b69346c79e53e984c4aa2ada2e240eed22f6a4eac623520e9",
+   "size": 130560,
+   "source": "mate-power-manager",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-power-manager_1.29.0+git20260921.4cf7346-1menta1_amd64.deb",
+   "version": "1.29.0+git20260921.4cf7346-1menta1"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-power-manager",
+ "source_sha256": "a173d389f0e77047b9254b926bb60ee7512635acd842431f21d865827e2fbb3e",
+ "target": "sid",
+ "upstream_version": "1.29.0+git20260921.4cf7346",
+ "version": "1.29.0+git20260921.4cf7346-1menta1"
+}

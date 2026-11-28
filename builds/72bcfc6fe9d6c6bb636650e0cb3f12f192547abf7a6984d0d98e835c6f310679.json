@@ -1,0 +1,37 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "cf016f77d33b3e30fbe1d09cb83563e8d7ac32f734a9aebc4cb852a1cf02229c",
+ "build_environment": "trixie",
+ "build_id": "sha256:72bcfc6fe9d6c6bb636650e0cb3f12f192547abf7a6984d0d98e835c6f310679",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "all",
+   "build_id": "sha256:72bcfc6fe9d6c6bb636650e0cb3f12f192547abf7a6984d0d98e835c6f310679",
+   "file": "plymouth-theme-orbit-plane_0+git20261118.70a9da4-1menta1.deb13_all.deb",
+   "package": "plymouth-theme-orbit-plane",
+   "sha256": "20164937254b4d5486dc104e54bac2f2c8b9c05b681f4670aacaf4020d54c59b",
+   "size": 5094464,
+   "source": "menta-plymouth",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/plymouth-theme-orbit-plane_0+git20261118.70a9da4-1menta1.deb13_all.deb",
+   "version": "0+git20261118.70a9da4-1menta1~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "menta-plymouth",
+ "source_sha256": "c92b21179f13a4cc3097cbc0cb526d8c827dd755cfe986bb41b2c424014e1c14",
+ "target": "trixie",
+ "upstream_version": "0+git20261118.70a9da4",
+ "version": "0+git20261118.70a9da4-1menta1~deb13"
+}

@@ -1,0 +1,48 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "e9481bf9d39073c30fc00dd6d6657eb271720b7273b3909410d61d8c0061c358",
+ "build_environment": "trixie",
+ "build_id": "sha256:8f1405eccdb6e95727cbf2d251dc016be1a29a3b700bfb237c8803e0ead2f973",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "all",
+   "build_id": "sha256:8f1405eccdb6e95727cbf2d251dc016be1a29a3b700bfb237c8803e0ead2f973",
+   "file": "mate-power-manager-common_1.29.0+git20260921.4cf7346-1menta1.deb13_all.deb",
+   "package": "mate-power-manager-common",
+   "sha256": "a057ccf79b38cb6007e2ad31ff83f747287ca92903b9193e0b23df2bff4b26cc",
+   "size": 6064736,
+   "source": "mate-power-manager",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-power-manager-common_1.29.0+git20260921.4cf7346-1menta1.deb13_all.deb",
+   "version": "1.29.0+git20260921.4cf7346-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:8f1405eccdb6e95727cbf2d251dc016be1a29a3b700bfb237c8803e0ead2f973",
+   "file": "mate-power-manager_1.29.0+git20260921.4cf7346-1menta1.deb13_amd64.deb",
+   "package": "mate-power-manager",
+   "sha256": "01a28fc6793000448619c51397cfe7096d6ae8cfeca8a6fdc7d5428310796d15",
+   "size": 128092,
+   "source": "mate-power-manager",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-power-manager_1.29.0+git20260921.4cf7346-1menta1.deb13_amd64.deb",
+   "version": "1.29.0+git20260921.4cf7346-1menta1~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-power-manager",
+ "source_sha256": "b6e3d1a99ed26c8ec999bf1192ceaea7c9edda3c27611c8b1221098d3e97daa6",
+ "target": "trixie",
+ "upstream_version": "1.29.0+git20260921.4cf7346",
+ "version": "1.29.0+git20260921.4cf7346-1menta1~deb13"
+}

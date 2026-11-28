@@ -1,0 +1,149 @@
+{
+ "base": "trixie",
+ "builds": [
+  "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+  "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3"
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "file": "gir1.2-gtklayershell-0.1_0.10.1-1menta1.deb13_amd64.deb",
+   "package": "gir1.2-gtklayershell-0.1",
+   "sha256": "b832df0a760373f58f62ac3068a1e205e5f9e6e31e8bcc857c823dc8f3a20492",
+   "size": 9460,
+   "source": "gtk-layer-shell",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gir1.2-gtklayershell-0.1_0.10.1-1menta1.deb13_amd64.deb",
+   "version": "0.10.1-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "file": "gir1.2-libxfce4windowing-0.0_4.20.7-1menta1.deb13_amd64.deb",
+   "package": "gir1.2-libxfce4windowing-0.0",
+   "sha256": "3a81aa77e692980a4a8ccf007a10511d08d4ebcc5304d56c5019e3f2224cb5ef",
+   "size": 51296,
+   "source": "libxfce4windowing",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gir1.2-libxfce4windowing-0.0_4.20.7-1menta1.deb13_amd64.deb",
+   "version": "4.20.7-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "file": "gir1.2-libxfce4windowingui-0.0_4.20.7-1menta1.deb13_amd64.deb",
+   "package": "gir1.2-libxfce4windowingui-0.0",
+   "sha256": "8008150cad84e728251bda92f79b1965d12cc231fbef087d5225e166d43b9645",
+   "size": 46656,
+   "source": "libxfce4windowing",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gir1.2-libxfce4windowingui-0.0_4.20.7-1menta1.deb13_amd64.deb",
+   "version": "4.20.7-1menta1~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "file": "gtk-layer-shell-doc_0.10.1-1menta1.deb13_all.deb",
+   "package": "gtk-layer-shell-doc",
+   "sha256": "6e55722a1e38a5a92d49688fd678b0e2fc59cc4cb25876e23c5623c03fc19254",
+   "size": 21056,
+   "source": "gtk-layer-shell",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gtk-layer-shell-doc_0.10.1-1menta1.deb13_all.deb",
+   "version": "0.10.1-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "file": "gtk-layer-shell-examples_0.10.1-1menta1.deb13_amd64.deb",
+   "package": "gtk-layer-shell-examples",
+   "sha256": "656f48494005bbc768d97f389b1e1a39d332b53a9ae8a8b52050862c539b7768",
+   "size": 25664,
+   "source": "gtk-layer-shell",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gtk-layer-shell-examples_0.10.1-1menta1.deb13_amd64.deb",
+   "version": "0.10.1-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "file": "libgtk-layer-shell-dev_0.10.1-1menta1.deb13_amd64.deb",
+   "package": "libgtk-layer-shell-dev",
+   "sha256": "d75ee312c6107cd3ca0bfb74e1aa9065665d96fc5b7f2007f5d072a4308b4d21",
+   "size": 14704,
+   "source": "gtk-layer-shell",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libgtk-layer-shell-dev_0.10.1-1menta1.deb13_amd64.deb",
+   "version": "0.10.1-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "file": "libgtk-layer-shell0_0.10.1-1menta1.deb13_amd64.deb",
+   "package": "libgtk-layer-shell0",
+   "sha256": "9c2f8ed8b6ddbdebd6473458189a54bf0dde1352efb74800ce60466a69dec0e2",
+   "size": 59968,
+   "source": "gtk-layer-shell",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libgtk-layer-shell0_0.10.1-1menta1.deb13_amd64.deb",
+   "version": "0.10.1-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "file": "libxfce4windowing-0-0_4.20.7-1menta1.deb13_amd64.deb",
+   "package": "libxfce4windowing-0-0",
+   "sha256": "8aa1883d3515168183df32c9f312b637cd4d496ec575fdba7ee75b40cec9de06",
+   "size": 123828,
+   "source": "libxfce4windowing",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libxfce4windowing-0-0_4.20.7-1menta1.deb13_amd64.deb",
+   "version": "4.20.7-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "file": "libxfce4windowing-0-dev_4.20.7-1menta1.deb13_amd64.deb",
+   "package": "libxfce4windowing-0-dev",
+   "sha256": "9c53013886499e22ab926473d9533594f81ab05d93e78edd39be8ac868baad0c",
+   "size": 106580,
+   "source": "libxfce4windowing",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libxfce4windowing-0-dev_4.20.7-1menta1.deb13_amd64.deb",
+   "version": "4.20.7-1menta1~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "file": "libxfce4windowing-common_4.20.7-1menta1.deb13_all.deb",
+   "package": "libxfce4windowing-common",
+   "sha256": "0b2ad13ea2c431a80754eb242c35c09e91d9f287b629734dcbb392e663c3e16d",
+   "size": 63240,
+   "source": "libxfce4windowing",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libxfce4windowing-common_4.20.7-1menta1.deb13_all.deb",
+   "version": "4.20.7-1menta1~deb13"
+  }
+ ],
+ "previous": "s-b64cd63392033ab7",
+ "schema_version": 1,
+ "snapshot_id": "s-b92316388fa16711",
+ "sources": {
+  "gtk-layer-shell": {
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "version": "0.10.1-1menta1~deb13"
+  },
+  "libxfce4windowing": {
+   "build_id": "sha256:d79dfc6094072c0214c0ef545a89e424704bd2b44adac2e75ef7ff66d1aad2b6",
+   "version": "4.20.7-1menta1~deb13"
+  }
+ },
+ "validation": [
+  {
+   "rule": "REPO-002",
+   "status": "PASS",
+   "summary": "10 distinct package identities"
+  },
+  {
+   "rule": "REPO-003",
+   "status": "PASS",
+   "summary": "no undeclared file sharing across 194 paths"
+  },
+  {
+   "rule": "REPO-001",
+   "status": "PASS",
+   "summary": "all 10 binary packages of the set are installable together on trixie-native"
+  }
+ ]
+}

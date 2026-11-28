@@ -1,0 +1,37 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "53295debbbf311a325f159be0052d97434360cccdbf223c49c967ff202287b9a",
+ "build_environment": "sid",
+ "build_id": "sha256:559bc46b3d823f05d211234f61fc705e774d311b58e02423cf538cb1e7bc9468",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:559bc46b3d823f05d211234f61fc705e774d311b58e02423cf538cb1e7bc9468",
+   "file": "polo_1.0.1+git20261123.b9514ed-1menta2_amd64.deb",
+   "package": "polo",
+   "sha256": "cd2be0a98aee890a03023fe77cd5c33dd35900e9809312377a16379a11a466e4",
+   "size": 1176280,
+   "source": "polo",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/polo_1.0.1+git20261123.b9514ed-1menta2_amd64.deb",
+   "version": "1.0.1+git20261123.b9514ed-1menta2"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "polo",
+ "source_sha256": "7bab68bf00cfd8fd0efddf1d66f17ec365b45b0f350e57f541304136112c4a7c",
+ "target": "sid",
+ "upstream_version": "1.0.1+git20261123.b9514ed",
+ "version": "1.0.1+git20261123.b9514ed-1menta2"
+}

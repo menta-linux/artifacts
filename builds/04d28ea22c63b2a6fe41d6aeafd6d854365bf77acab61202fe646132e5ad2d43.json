@@ -1,0 +1,37 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "23d635fcbfe53bf61e8605257d529a254513b47a340e3794c4424ab28d1f7a70",
+ "build_environment": "trixie",
+ "build_id": "sha256:04d28ea22c63b2a6fe41d6aeafd6d854365bf77acab61202fe646132e5ad2d43",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:04d28ea22c63b2a6fe41d6aeafd6d854365bf77acab61202fe646132e5ad2d43",
+   "file": "mate-clipboard_2.0.1-1menta1.deb13_amd64.deb",
+   "package": "mate-clipboard",
+   "sha256": "09c140e4e99c2a0b7215ebfc32759c796e8fb10898f9d28ae5b9c515df6544fe",
+   "size": 68680,
+   "source": "mate-clipboard",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-clipboard_2.0.1-1menta1.deb13_amd64.deb",
+   "version": "2.0.1-1menta1~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-clipboard",
+ "source_sha256": "35d14c4bf1e9b63119c45e2c4e8c507a518831a8ffe70c7f602655d65b1c6799",
+ "target": "trixie",
+ "upstream_version": "2.0.1",
+ "version": "2.0.1-1menta1~deb13"
+}

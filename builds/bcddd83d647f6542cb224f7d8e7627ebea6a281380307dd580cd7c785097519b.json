@@ -1,0 +1,37 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "1c7eb5a960a5f5a6e562513675a3e1ef41310410cc207999966cf57a360e3dbc",
+ "build_environment": "sid",
+ "build_id": "sha256:bcddd83d647f6542cb224f7d8e7627ebea6a281380307dd580cd7c785097519b",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:bcddd83d647f6542cb224f7d8e7627ebea6a281380307dd580cd7c785097519b",
+   "file": "mate-redshift_0.1.0+git20261022.c2f3fba-1menta2_amd64.deb",
+   "package": "mate-redshift",
+   "sha256": "641d365e696d39393a3081fa95782011fc0e5d1d526dd79b8848a660e5ddcdd5",
+   "size": 40540,
+   "source": "mate-redshift",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-redshift_0.1.0+git20261022.c2f3fba-1menta2_amd64.deb",
+   "version": "0.1.0+git20261022.c2f3fba-1menta2"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-redshift",
+ "source_sha256": "b1a764274d7f65b7eb9cb4a67d8ef2bfe659c64f433d18cf107046dc1a9e9ac7",
+ "target": "sid",
+ "upstream_version": "0.1.0+git20261022.c2f3fba",
+ "version": "0.1.0+git20261022.c2f3fba-1menta2"
+}

@@ -1,0 +1,89 @@
+{
+ "base": "trixie",
+ "builds": [
+  "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3"
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "file": "gir1.2-gtklayershell-0.1_0.10.1-1menta1.deb13_amd64.deb",
+   "package": "gir1.2-gtklayershell-0.1",
+   "sha256": "b832df0a760373f58f62ac3068a1e205e5f9e6e31e8bcc857c823dc8f3a20492",
+   "size": 9460,
+   "source": "gtk-layer-shell",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gir1.2-gtklayershell-0.1_0.10.1-1menta1.deb13_amd64.deb",
+   "version": "0.10.1-1menta1~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "file": "gtk-layer-shell-doc_0.10.1-1menta1.deb13_all.deb",
+   "package": "gtk-layer-shell-doc",
+   "sha256": "6e55722a1e38a5a92d49688fd678b0e2fc59cc4cb25876e23c5623c03fc19254",
+   "size": 21056,
+   "source": "gtk-layer-shell",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gtk-layer-shell-doc_0.10.1-1menta1.deb13_all.deb",
+   "version": "0.10.1-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "file": "gtk-layer-shell-examples_0.10.1-1menta1.deb13_amd64.deb",
+   "package": "gtk-layer-shell-examples",
+   "sha256": "656f48494005bbc768d97f389b1e1a39d332b53a9ae8a8b52050862c539b7768",
+   "size": 25664,
+   "source": "gtk-layer-shell",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gtk-layer-shell-examples_0.10.1-1menta1.deb13_amd64.deb",
+   "version": "0.10.1-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "file": "libgtk-layer-shell-dev_0.10.1-1menta1.deb13_amd64.deb",
+   "package": "libgtk-layer-shell-dev",
+   "sha256": "d75ee312c6107cd3ca0bfb74e1aa9065665d96fc5b7f2007f5d072a4308b4d21",
+   "size": 14704,
+   "source": "gtk-layer-shell",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libgtk-layer-shell-dev_0.10.1-1menta1.deb13_amd64.deb",
+   "version": "0.10.1-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "file": "libgtk-layer-shell0_0.10.1-1menta1.deb13_amd64.deb",
+   "package": "libgtk-layer-shell0",
+   "sha256": "9c2f8ed8b6ddbdebd6473458189a54bf0dde1352efb74800ce60466a69dec0e2",
+   "size": 59968,
+   "source": "gtk-layer-shell",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libgtk-layer-shell0_0.10.1-1menta1.deb13_amd64.deb",
+   "version": "0.10.1-1menta1~deb13"
+  }
+ ],
+ "previous": null,
+ "schema_version": 1,
+ "snapshot_id": "s-b64cd63392033ab7",
+ "sources": {
+  "gtk-layer-shell": {
+   "build_id": "sha256:eaa4e1617fa40e9942576685f5e68b2f310871bd6528c1d1c0c6e83c604bf1c3",
+   "version": "0.10.1-1menta1~deb13"
+  }
+ },
+ "validation": [
+  {
+   "rule": "REPO-002",
+   "status": "PASS",
+   "summary": "5 distinct package identities"
+  },
+  {
+   "rule": "REPO-003",
+   "status": "PASS",
+   "summary": "no undeclared file sharing across 58 paths"
+  },
+  {
+   "rule": "REPO-001",
+   "status": "PASS",
+   "summary": "all 5 binary packages of the set are installable together on trixie-native"
+  }
+ ]
+}

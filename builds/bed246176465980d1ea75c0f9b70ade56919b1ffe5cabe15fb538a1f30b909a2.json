@@ -1,0 +1,92 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "24e300950ed3f993c40321c59ed89210e22592a38bdfa47f7e36b55b6641d7eb",
+ "build_environment": "sid",
+ "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "gir1.2-matedesktop-2.0_1.29.1-1menta2_amd64.deb",
+   "package": "gir1.2-matedesktop-2.0",
+   "sha256": "e03c1a9940cb0e583dc89de96b05b808bbe01bff71fa1aeacf3f22572bba029f",
+   "size": 21440,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/gir1.2-matedesktop-2.0_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "libmate-desktop-2-17t64_1.29.1-1menta2_amd64.deb",
+   "package": "libmate-desktop-2-17t64",
+   "sha256": "043aff5f43dbdcf31ac43bdeefb13e7dd10984c7af20916bac32a9fe332a64d5",
+   "size": 129576,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmate-desktop-2-17t64_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "libmate-desktop-dev_1.29.1-1menta2_amd64.deb",
+   "package": "libmate-desktop-dev",
+   "sha256": "683441c7fa48375758bd1e2543e73a7305ce6fba1d45b1e6080d30bf4c1b15c3",
+   "size": 52008,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmate-desktop-dev_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "libmate-desktop-doc_1.29.1-1menta2_all.deb",
+   "package": "libmate-desktop-doc",
+   "sha256": "c98ac0aea443deb9173fd65a0b56a49899a4143e4e2b29a270140b6ecc7d3bf5",
+   "size": 37060,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmate-desktop-doc_1.29.1-1menta2_all.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "mate-desktop-common_1.29.1-1menta2_all.deb",
+   "package": "mate-desktop-common",
+   "sha256": "ddf18e02d287ccbfb830d9a73595338292c8d232af15ac5419e17bd600951d75",
+   "size": 528048,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-desktop-common_1.29.1-1menta2_all.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "mate-desktop_1.29.1-1menta2_amd64.deb",
+   "package": "mate-desktop",
+   "sha256": "ec783ae2a5ae831ca2aa706ad48479e6ece1c57c1d5cb778c2b6611770966a2d",
+   "size": 31296,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-desktop_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-desktop",
+ "source_sha256": "57a2730558f76c535c1fa91c39c7440a00fd6c9b0a5d89cdb6566fcbb409eb55",
+ "target": "sid",
+ "upstream_version": "1.29.1",
+ "version": "1.29.1-1menta2"
+}

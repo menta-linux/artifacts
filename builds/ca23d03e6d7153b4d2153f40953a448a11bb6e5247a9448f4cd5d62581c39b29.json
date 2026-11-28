@@ -1,0 +1,59 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "1bb683a18ec62e3454cf12523d56f8f6a381cedea774a2b688310d1dc2143eff",
+ "build_environment": "trixie",
+ "build_id": "sha256:ca23d03e6d7153b4d2153f40953a448a11bb6e5247a9448f4cd5d62581c39b29",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "all",
+   "build_id": "sha256:ca23d03e6d7153b4d2153f40953a448a11bb6e5247a9448f4cd5d62581c39b29",
+   "file": "mate-settings-daemon-common_1.29.1+git20261118.e39a109-1menta1.deb13_all.deb",
+   "package": "mate-settings-daemon-common",
+   "sha256": "e48c0cac419427370d5aa2926bdcd2b444ad25b4067a1bc6d2a0c12669fbd3c1",
+   "size": 406380,
+   "source": "mate-settings-daemon",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-settings-daemon-common_1.29.1+git20261118.e39a109-1menta1.deb13_all.deb",
+   "version": "1.29.1+git20261118.e39a109-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:ca23d03e6d7153b4d2153f40953a448a11bb6e5247a9448f4cd5d62581c39b29",
+   "file": "mate-settings-daemon-dev_1.29.1+git20261118.e39a109-1menta1.deb13_amd64.deb",
+   "package": "mate-settings-daemon-dev",
+   "sha256": "f4ef6bd92319ad1c8c18ac0fe5aa4a4067cb90ea3d7897437044352d79a868d7",
+   "size": 9012,
+   "source": "mate-settings-daemon",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-settings-daemon-dev_1.29.1+git20261118.e39a109-1menta1.deb13_amd64.deb",
+   "version": "1.29.1+git20261118.e39a109-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:ca23d03e6d7153b4d2153f40953a448a11bb6e5247a9448f4cd5d62581c39b29",
+   "file": "mate-settings-daemon_1.29.1+git20261118.e39a109-1menta1.deb13_amd64.deb",
+   "package": "mate-settings-daemon",
+   "sha256": "c4655ee264259b6e965a5c9700a456166c519d8e90cca9786b2fadb72790b0ec",
+   "size": 219564,
+   "source": "mate-settings-daemon",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-settings-daemon_1.29.1+git20261118.e39a109-1menta1.deb13_amd64.deb",
+   "version": "1.29.1+git20261118.e39a109-1menta1~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-settings-daemon",
+ "source_sha256": "5402a7f16e34fec64d584b831d96a90b394cea2b73091545489c2337ea195d2a",
+ "target": "trixie",
+ "upstream_version": "1.29.1+git20261118.e39a109",
+ "version": "1.29.1+git20261118.e39a109-1menta1~deb13"
+}

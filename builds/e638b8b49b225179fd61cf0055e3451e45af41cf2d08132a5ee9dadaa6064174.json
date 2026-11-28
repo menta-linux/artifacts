@@ -1,0 +1,48 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "f35f690901898a81d19e17af8080509c8a85f6bcc86106d72259aea7befb075f",
+ "build_environment": "sid",
+ "build_id": "sha256:e638b8b49b225179fd61cf0055e3451e45af41cf2d08132a5ee9dadaa6064174",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "all",
+   "build_id": "sha256:e638b8b49b225179fd61cf0055e3451e45af41cf2d08132a5ee9dadaa6064174",
+   "file": "mate-notification-daemon-common_1.29.0-1menta2_all.deb",
+   "package": "mate-notification-daemon-common",
+   "sha256": "59d9de3b16cc5029d2aff5956326daa48fac771e29365f6076d5a5d42ac3ba03",
+   "size": 73868,
+   "source": "mate-notification-daemon",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-notification-daemon-common_1.29.0-1menta2_all.deb",
+   "version": "1.29.0-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:e638b8b49b225179fd61cf0055e3451e45af41cf2d08132a5ee9dadaa6064174",
+   "file": "mate-notification-daemon_1.29.0-1menta2_amd64.deb",
+   "package": "mate-notification-daemon",
+   "sha256": "7b0a062a6ef8e599d7ea6c37ccddbb3089186e2a6273ff7ddaaa54a993c31e0c",
+   "size": 72104,
+   "source": "mate-notification-daemon",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-notification-daemon_1.29.0-1menta2_amd64.deb",
+   "version": "1.29.0-1menta2"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-notification-daemon",
+ "source_sha256": "9a8a029d683646efaf0a45d5baf3a0a8104cb8adff08855133075ea7e27b14fa",
+ "target": "sid",
+ "upstream_version": "1.29.0",
+ "version": "1.29.0-1menta2"
+}

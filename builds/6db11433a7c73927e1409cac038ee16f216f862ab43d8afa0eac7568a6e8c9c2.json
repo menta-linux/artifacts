@@ -1,0 +1,48 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "f67eff6329820e091b496544ee031a8abbbc0e18e9432e2a1ec96e3c6ec6b623",
+ "build_environment": "trixie",
+ "build_id": "sha256:6db11433a7c73927e1409cac038ee16f216f862ab43d8afa0eac7568a6e8c9c2",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "all",
+   "build_id": "sha256:6db11433a7c73927e1409cac038ee16f216f862ab43d8afa0eac7568a6e8c9c2",
+   "file": "mate-notification-daemon-common_1.29.0-1menta2.deb13_all.deb",
+   "package": "mate-notification-daemon-common",
+   "sha256": "e30e460a77ef9bfba1c02be9511c2d3671cba8ec84feee866d28d6c2ef521ff7",
+   "size": 74500,
+   "source": "mate-notification-daemon",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-notification-daemon-common_1.29.0-1menta2.deb13_all.deb",
+   "version": "1.29.0-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:6db11433a7c73927e1409cac038ee16f216f862ab43d8afa0eac7568a6e8c9c2",
+   "file": "mate-notification-daemon_1.29.0-1menta2.deb13_amd64.deb",
+   "package": "mate-notification-daemon",
+   "sha256": "1bb8fe956cb8d4bfc8988249081ca471391e4afdd67d2e25940f51257aa3ad7f",
+   "size": 72528,
+   "source": "mate-notification-daemon",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-notification-daemon_1.29.0-1menta2.deb13_amd64.deb",
+   "version": "1.29.0-1menta2~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-notification-daemon",
+ "source_sha256": "29f1110c2d9bb33504e7632c8d11ac970180f3043086dcefa694f726fc259167",
+ "target": "trixie",
+ "upstream_version": "1.29.0",
+ "version": "1.29.0-1menta2~deb13"
+}

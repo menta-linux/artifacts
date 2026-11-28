@@ -1,0 +1,48 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "eb0e89a8ec41008a6b0c15164e5047b30ef654214de601c38ffe13cb1b45b5e9",
+ "build_environment": "trixie",
+ "build_id": "sha256:25a680f5d0b1cb194d7f42bc86a58bfbd0b7fce27f64167e19f2bcc387eaccdc",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "all",
+   "build_id": "sha256:25a680f5d0b1cb194d7f42bc86a58bfbd0b7fce27f64167e19f2bcc387eaccdc",
+   "file": "mate-applets-common_1.28.1+git20261119.57488bf-1menta1.deb13_all.deb",
+   "package": "mate-applets-common",
+   "sha256": "5e465e13cffa3068142897c22da7669adb8cfa3a5f64e933231d685055656dc9",
+   "size": 7513208,
+   "source": "mate-applets",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-applets-common_1.28.1+git20261119.57488bf-1menta1.deb13_all.deb",
+   "version": "1.28.1+git20261119.57488bf-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:25a680f5d0b1cb194d7f42bc86a58bfbd0b7fce27f64167e19f2bcc387eaccdc",
+   "file": "mate-applets_1.28.1+git20261119.57488bf-1menta1.deb13_amd64.deb",
+   "package": "mate-applets",
+   "sha256": "f67ea65453f106a38b451d7cea2280fa176a259c19766de48e9f19213858640c",
+   "size": 200672,
+   "source": "mate-applets",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-applets_1.28.1+git20261119.57488bf-1menta1.deb13_amd64.deb",
+   "version": "1.28.1+git20261119.57488bf-1menta1~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-applets",
+ "source_sha256": "71f0f39f62372c5bfc6e8909169d2cb9dd8b1d0ae57bf46fb017a0c234c4f16f",
+ "target": "trixie",
+ "upstream_version": "1.28.1+git20261119.57488bf",
+ "version": "1.28.1+git20261119.57488bf-1menta1~deb13"
+}

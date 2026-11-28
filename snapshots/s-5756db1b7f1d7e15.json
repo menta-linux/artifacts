@@ -1,0 +1,625 @@
+{
+ "base": "sid",
+ "builds": [
+  "sha256:16b0d4f9d39c18daf05056271e5f1fe9cf1996c90136355e900032df60358de6",
+  "sha256:3edf297a317fdc5e70e3ea410cb15116069872ab1e5bb5ca910d3c87d18293a4",
+  "sha256:463a4c5517db9b1b4b177908169957494727ad6dad2aa8ebcd499dc560351a57",
+  "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+  "sha256:559bc46b3d823f05d211234f61fc705e774d311b58e02423cf538cb1e7bc9468",
+  "sha256:5bc91f166da7cc8566bf9f1e4a45b1ed097289129de4ea2d4d2a4d5ab6c7dc40",
+  "sha256:6dd3b324c0866fd6f29039defae8c8e1562fae250ae0ac570a60ed4b75ddcabf",
+  "sha256:7573661b6719504666d3b63a29eeca72c54ce6cc84461e69a6868e91548d8714",
+  "sha256:aba00c28479b50a03715c5414246a59b772512979ea8e75bb5da2863984b00e8",
+  "sha256:bc3954b2e4266fa1838193c63aeace5cb2e064c9a0a370ba951949d8577856ca",
+  "sha256:bcddd83d647f6542cb224f7d8e7627ebea6a281380307dd580cd7c785097519b",
+  "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+  "sha256:c07033206e675a143625d96017c7c76ea5e06ff35277d665e63a7319869d91b3",
+  "sha256:d7aead6416c1410837b62ec950253c79df19eefd71f5f7d2e42bbb053ab04b37",
+  "sha256:df911cda6a39a91b2bf80c2bb951a4e1acf9cfc88627010bd29032951fee7479",
+  "sha256:e4da936d6a4314b4da05723e10c2c5fc1b8fcf46010b970fe1a445e8204ffd0a",
+  "sha256:e638b8b49b225179fd61cf0055e3451e45af41cf2d08132a5ee9dadaa6064174",
+  "sha256:f49679a932def08ba9c983a092b16e244f27a7721e99c55f70c81ebacf65d11b"
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:aba00c28479b50a03715c5414246a59b772512979ea8e75bb5da2863984b00e8",
+   "file": "caja_1.29.1-1menta2_amd64.deb",
+   "package": "caja",
+   "sha256": "9a52de5067bce94fc532b441bb3906c4cb8c8d998b9fe4e349234f13c96bf824",
+   "size": 895064,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/caja_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:aba00c28479b50a03715c5414246a59b772512979ea8e75bb5da2863984b00e8",
+   "file": "caja-common_1.29.1-1menta2_all.deb",
+   "package": "caja-common",
+   "sha256": "237679704b1fae7daa5fd776b80d624eb7bc711d1a60488085bf1efff0fd1bd9",
+   "size": 2378628,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/caja-common_1.29.1-1menta2_all.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:aba00c28479b50a03715c5414246a59b772512979ea8e75bb5da2863984b00e8",
+   "file": "gir1.2-caja-2.0_1.29.1-1menta2_amd64.deb",
+   "package": "gir1.2-caja-2.0",
+   "sha256": "8f570bcacc43323060cf62191e68d1e576748265ef80482b90a5bffbda5bbd2a",
+   "size": 22568,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/gir1.2-caja-2.0_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "gir1.2-matedesktop-2.0_1.29.1-1menta2_amd64.deb",
+   "package": "gir1.2-matedesktop-2.0",
+   "sha256": "e03c1a9940cb0e583dc89de96b05b808bbe01bff71fa1aeacf3f22572bba029f",
+   "size": 21440,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/gir1.2-matedesktop-2.0_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:16b0d4f9d39c18daf05056271e5f1fe9cf1996c90136355e900032df60358de6",
+   "file": "gir1.2-matepanelapplet-4.0_1.29.2-1menta2_amd64.deb",
+   "package": "gir1.2-matepanelapplet-4.0",
+   "sha256": "d4a19c856e4d45fe5b22299488764489208b9cbb9c99b26823333a9f64fffd53",
+   "size": 25468,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/gir1.2-matepanelapplet-4.0_1.29.2-1menta2_amd64.deb",
+   "version": "1.29.2-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:aba00c28479b50a03715c5414246a59b772512979ea8e75bb5da2863984b00e8",
+   "file": "libcaja-extension-dev_1.29.1-1menta2_amd64.deb",
+   "package": "libcaja-extension-dev",
+   "sha256": "61e603d309156770114865b8746d5eab8d85819faaaa29e6c3214169f4b75051",
+   "size": 34400,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libcaja-extension-dev_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:aba00c28479b50a03715c5414246a59b772512979ea8e75bb5da2863984b00e8",
+   "file": "libcaja-extension-doc_1.29.1-1menta2_all.deb",
+   "package": "libcaja-extension-doc",
+   "sha256": "19d11c7884b20638b994d93c455b624895a979c5a82e810ab8898bc21b72c1bd",
+   "size": 40040,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libcaja-extension-doc_1.29.1-1menta2_all.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:aba00c28479b50a03715c5414246a59b772512979ea8e75bb5da2863984b00e8",
+   "file": "libcaja-extension1_1.29.1-1menta2_amd64.deb",
+   "package": "libcaja-extension1",
+   "sha256": "714802eb9fa94b04d2f198c5c64c95b1581d03cc4f68fa1beb783c754e45e5a6",
+   "size": 31052,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libcaja-extension1_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "file": "libmarco-dev_1.29.1-1menta1_amd64.deb",
+   "package": "libmarco-dev",
+   "sha256": "766e0a2390c5e462c390d9b5954bbeaab5cb0017fe42accb6ab03b1ee6ec5b4e",
+   "size": 29328,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmarco-dev_1.29.1-1menta1_amd64.deb",
+   "version": "1.29.1-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "file": "libmarco-private2_1.29.1-1menta1_amd64.deb",
+   "package": "libmarco-private2",
+   "sha256": "d5aad87a4563b910ddc2c9c6d3aeb7c09cac23cb3cba55e9061aca33ca92436d",
+   "size": 288972,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmarco-private2_1.29.1-1menta1_amd64.deb",
+   "version": "1.29.1-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "libmate-desktop-2-17t64_1.29.1-1menta2_amd64.deb",
+   "package": "libmate-desktop-2-17t64",
+   "sha256": "043aff5f43dbdcf31ac43bdeefb13e7dd10984c7af20916bac32a9fe332a64d5",
+   "size": 129576,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmate-desktop-2-17t64_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "libmate-desktop-dev_1.29.1-1menta2_amd64.deb",
+   "package": "libmate-desktop-dev",
+   "sha256": "683441c7fa48375758bd1e2543e73a7305ce6fba1d45b1e6080d30bf4c1b15c3",
+   "size": 52008,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmate-desktop-dev_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "libmate-desktop-doc_1.29.1-1menta2_all.deb",
+   "package": "libmate-desktop-doc",
+   "sha256": "c98ac0aea443deb9173fd65a0b56a49899a4143e4e2b29a270140b6ecc7d3bf5",
+   "size": 37060,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmate-desktop-doc_1.29.1-1menta2_all.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:16b0d4f9d39c18daf05056271e5f1fe9cf1996c90136355e900032df60358de6",
+   "file": "libmate-panel-applet-4-2_1.29.2-1menta2_amd64.deb",
+   "package": "libmate-panel-applet-4-2",
+   "sha256": "f4f10be37de6055af5e7b9e55392c4add42cac5e6e7b47b0b2f17e117805ab16",
+   "size": 45168,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmate-panel-applet-4-2_1.29.2-1menta2_amd64.deb",
+   "version": "1.29.2-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:16b0d4f9d39c18daf05056271e5f1fe9cf1996c90136355e900032df60358de6",
+   "file": "libmate-panel-applet-dev_1.29.2-1menta2_amd64.deb",
+   "package": "libmate-panel-applet-dev",
+   "sha256": "c67d6e5db292336e3b5d4322ec745639f29220e5eafa998f2979d6e9bfe93035",
+   "size": 29804,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmate-panel-applet-dev_1.29.2-1menta2_amd64.deb",
+   "version": "1.29.2-1menta2"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:16b0d4f9d39c18daf05056271e5f1fe9cf1996c90136355e900032df60358de6",
+   "file": "libmate-panel-applet-doc_1.29.2-1menta2_all.deb",
+   "package": "libmate-panel-applet-doc",
+   "sha256": "de3ea0570c0b9f8e792f09c9e9163279ff129aad7bc56bfa9db59ed85071319b",
+   "size": 37500,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmate-panel-applet-doc_1.29.2-1menta2_all.deb",
+   "version": "1.29.2-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:6dd3b324c0866fd6f29039defae8c8e1562fae250ae0ac570a60ed4b75ddcabf",
+   "file": "libmatedict-dev_1.29.1+git20261117.1745848-1menta1_amd64.deb",
+   "package": "libmatedict-dev",
+   "sha256": "5a270a0da1eeed80b9c593c96233a35d4f692986c8920af2f8b74ec213c5a501",
+   "size": 18616,
+   "source": "mate-utils",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmatedict-dev_1.29.1+git20261117.1745848-1menta1_amd64.deb",
+   "version": "1.29.1+git20261117.1745848-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:6dd3b324c0866fd6f29039defae8c8e1562fae250ae0ac570a60ed4b75ddcabf",
+   "file": "libmatedict6_1.29.1+git20261117.1745848-1menta1_amd64.deb",
+   "package": "libmatedict6",
+   "sha256": "8fa9d2be3ae65bc35d259b24cc58b6a3677e859235747515e81030f1b6bf881f",
+   "size": 54436,
+   "source": "mate-utils",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmatedict6_1.29.1+git20261117.1745848-1menta1_amd64.deb",
+   "version": "1.29.1+git20261117.1745848-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "file": "marco_1.29.1-1menta1_amd64.deb",
+   "package": "marco",
+   "sha256": "952521f38ede82403f5bc0344274cdd743652607d82d0c4dedc508f9e831a756",
+   "size": 39332,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/marco_1.29.1-1menta1_amd64.deb",
+   "version": "1.29.1-1menta1"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "file": "marco-common_1.29.1-1menta1_all.deb",
+   "package": "marco-common",
+   "sha256": "47ea7e689128e33005cb71f22d85573c332771271002f7299c8f3782a09a8121",
+   "size": 734824,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/marco-common_1.29.1-1menta1_all.deb",
+   "version": "1.29.1-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:f49679a932def08ba9c983a092b16e244f27a7721e99c55f70c81ebacf65d11b",
+   "file": "mate-applets_1.28.1+git20261119.57488bf-1menta1_amd64.deb",
+   "package": "mate-applets",
+   "sha256": "f19e66665e1a8860b218a779b3eacb2bdf6a725ac376da39be5cf3ef35434f4a",
+   "size": 205340,
+   "source": "mate-applets",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-applets_1.28.1+git20261119.57488bf-1menta1_amd64.deb",
+   "version": "1.28.1+git20261119.57488bf-1menta1"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:f49679a932def08ba9c983a092b16e244f27a7721e99c55f70c81ebacf65d11b",
+   "file": "mate-applets-common_1.28.1+git20261119.57488bf-1menta1_all.deb",
+   "package": "mate-applets-common",
+   "sha256": "aa3e4661d34aeaae8d489248dca77eebacd220a65245edec2ff7be0b3d34ac88",
+   "size": 7513848,
+   "source": "mate-applets",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-applets-common_1.28.1+git20261119.57488bf-1menta1_all.deb",
+   "version": "1.28.1+git20261119.57488bf-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:bc3954b2e4266fa1838193c63aeace5cb2e064c9a0a370ba951949d8577856ca",
+   "file": "mate-clipboard_2.0.1-1menta1_amd64.deb",
+   "package": "mate-clipboard",
+   "sha256": "abb88dc58ce0d369fbcdd854f5214ae6ed547165bf5614461072de03405f8ee8",
+   "size": 72272,
+   "source": "mate-clipboard",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-clipboard_2.0.1-1menta1_amd64.deb",
+   "version": "2.0.1-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:c07033206e675a143625d96017c7c76ea5e06ff35277d665e63a7319869d91b3",
+   "file": "mate-control-center_1.29.1+git20261118.6779122-1menta1_amd64.deb",
+   "package": "mate-control-center",
+   "sha256": "66ef992f55daa3bce5218753ad3e869a8bcf4677e892249656146f8bdaf75d2d",
+   "size": 400656,
+   "source": "mate-control-center",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-control-center_1.29.1+git20261118.6779122-1menta1_amd64.deb",
+   "version": "1.29.1+git20261118.6779122-1menta1"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:c07033206e675a143625d96017c7c76ea5e06ff35277d665e63a7319869d91b3",
+   "file": "mate-control-center-common_1.29.1+git20261118.6779122-1menta1_all.deb",
+   "package": "mate-control-center-common",
+   "sha256": "61470fb1d2725d9d79306540221ca8f21a35e4bb2bcd0e69b01ef628da2d3fbf",
+   "size": 2176404,
+   "source": "mate-control-center",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-control-center-common_1.29.1+git20261118.6779122-1menta1_all.deb",
+   "version": "1.29.1+git20261118.6779122-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "mate-desktop_1.29.1-1menta2_amd64.deb",
+   "package": "mate-desktop",
+   "sha256": "ec783ae2a5ae831ca2aa706ad48479e6ece1c57c1d5cb778c2b6611770966a2d",
+   "size": 31296,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-desktop_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "file": "mate-desktop-common_1.29.1-1menta2_all.deb",
+   "package": "mate-desktop-common",
+   "sha256": "ddf18e02d287ccbfb830d9a73595338292c8d232af15ac5419e17bd600951d75",
+   "size": 528048,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-desktop-common_1.29.1-1menta2_all.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:df911cda6a39a91b2bf80c2bb951a4e1acf9cfc88627010bd29032951fee7479",
+   "file": "mate-fprint_1.0.0-1menta1_amd64.deb",
+   "package": "mate-fprint",
+   "sha256": "45c8f52c444fe0c60fec9425548fa2e5442f8fb6c309a12b4342f541be9fa7b3",
+   "size": 23984,
+   "source": "mate-fprint",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-fprint_1.0.0-1menta1_amd64.deb",
+   "version": "1.0.0-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:e4da936d6a4314b4da05723e10c2c5fc1b8fcf46010b970fe1a445e8204ffd0a",
+   "file": "mate-media_1.29.0-1menta2_amd64.deb",
+   "package": "mate-media",
+   "sha256": "e866ac5210f9d4f6c834e20fffa8a908716c239593431c660209a87461b936bb",
+   "size": 102380,
+   "source": "mate-media",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-media_1.29.0-1menta2_amd64.deb",
+   "version": "1.29.0-1menta2"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:e4da936d6a4314b4da05723e10c2c5fc1b8fcf46010b970fe1a445e8204ffd0a",
+   "file": "mate-media-common_1.29.0-1menta2_all.deb",
+   "package": "mate-media-common",
+   "sha256": "44ea1c8bf4966fa9729ea722af311b7301575da3ca382a2fd08cd96978282e1b",
+   "size": 174944,
+   "source": "mate-media",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-media-common_1.29.0-1menta2_all.deb",
+   "version": "1.29.0-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:e638b8b49b225179fd61cf0055e3451e45af41cf2d08132a5ee9dadaa6064174",
+   "file": "mate-notification-daemon_1.29.0-1menta2_amd64.deb",
+   "package": "mate-notification-daemon",
+   "sha256": "7b0a062a6ef8e599d7ea6c37ccddbb3089186e2a6273ff7ddaaa54a993c31e0c",
+   "size": 72104,
+   "source": "mate-notification-daemon",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-notification-daemon_1.29.0-1menta2_amd64.deb",
+   "version": "1.29.0-1menta2"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:e638b8b49b225179fd61cf0055e3451e45af41cf2d08132a5ee9dadaa6064174",
+   "file": "mate-notification-daemon-common_1.29.0-1menta2_all.deb",
+   "package": "mate-notification-daemon-common",
+   "sha256": "59d9de3b16cc5029d2aff5956326daa48fac771e29365f6076d5a5d42ac3ba03",
+   "size": 73868,
+   "source": "mate-notification-daemon",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-notification-daemon-common_1.29.0-1menta2_all.deb",
+   "version": "1.29.0-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:16b0d4f9d39c18daf05056271e5f1fe9cf1996c90136355e900032df60358de6",
+   "file": "mate-panel_1.29.2-1menta2_amd64.deb",
+   "package": "mate-panel",
+   "sha256": "c4b42bed0755ee017a28f8c1629d323605912a1418b13c271fb6ad9b57662f7f",
+   "size": 622580,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-panel_1.29.2-1menta2_amd64.deb",
+   "version": "1.29.2-1menta2"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:16b0d4f9d39c18daf05056271e5f1fe9cf1996c90136355e900032df60358de6",
+   "file": "mate-panel-common_1.29.2-1menta2_all.deb",
+   "package": "mate-panel-common",
+   "sha256": "cd77a481ab916351a65dcddc97addf7a5233095e7a2085b14cd0670d3abe7dca",
+   "size": 1467664,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-panel-common_1.29.2-1menta2_all.deb",
+   "version": "1.29.2-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:d7aead6416c1410837b62ec950253c79df19eefd71f5f7d2e42bbb053ab04b37",
+   "file": "mate-power-manager_1.29.0+git20260921.4cf7346-1menta1_amd64.deb",
+   "package": "mate-power-manager",
+   "sha256": "4846258aff8f3a2b69346c79e53e984c4aa2ada2e240eed22f6a4eac623520e9",
+   "size": 130560,
+   "source": "mate-power-manager",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-power-manager_1.29.0+git20260921.4cf7346-1menta1_amd64.deb",
+   "version": "1.29.0+git20260921.4cf7346-1menta1"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:d7aead6416c1410837b62ec950253c79df19eefd71f5f7d2e42bbb053ab04b37",
+   "file": "mate-power-manager-common_1.29.0+git20260921.4cf7346-1menta1_all.deb",
+   "package": "mate-power-manager-common",
+   "sha256": "35f7d16b9e7861e6c9a83fffbb3476dad608f4a102d4fa735b38d1df2351ffc6",
+   "size": 6064380,
+   "source": "mate-power-manager",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-power-manager-common_1.29.0+git20260921.4cf7346-1menta1_all.deb",
+   "version": "1.29.0+git20260921.4cf7346-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:bcddd83d647f6542cb224f7d8e7627ebea6a281380307dd580cd7c785097519b",
+   "file": "mate-redshift_0.1.0+git20261022.c2f3fba-1menta2_amd64.deb",
+   "package": "mate-redshift",
+   "sha256": "641d365e696d39393a3081fa95782011fc0e5d1d526dd79b8848a660e5ddcdd5",
+   "size": 40540,
+   "source": "mate-redshift",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-redshift_0.1.0+git20261022.c2f3fba-1menta2_amd64.deb",
+   "version": "0.1.0+git20261022.c2f3fba-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:463a4c5517db9b1b4b177908169957494727ad6dad2aa8ebcd499dc560351a57",
+   "file": "mate-settings-daemon_1.29.1+git20261118.e39a109-1menta1_amd64.deb",
+   "package": "mate-settings-daemon",
+   "sha256": "23c1b5fc5b6bf1c7b29e2ae5030c46b3a235d556de579cb42da6f9c0c782e0fd",
+   "size": 227708,
+   "source": "mate-settings-daemon",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-settings-daemon_1.29.1+git20261118.e39a109-1menta1_amd64.deb",
+   "version": "1.29.1+git20261118.e39a109-1menta1"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:463a4c5517db9b1b4b177908169957494727ad6dad2aa8ebcd499dc560351a57",
+   "file": "mate-settings-daemon-common_1.29.1+git20261118.e39a109-1menta1_all.deb",
+   "package": "mate-settings-daemon-common",
+   "sha256": "24b1742af4215d11ad91fb5e4e853c3a3c33fdf9e66f49b9ceeed4441eca6ed6",
+   "size": 405548,
+   "source": "mate-settings-daemon",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-settings-daemon-common_1.29.1+git20261118.e39a109-1menta1_all.deb",
+   "version": "1.29.1+git20261118.e39a109-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:463a4c5517db9b1b4b177908169957494727ad6dad2aa8ebcd499dc560351a57",
+   "file": "mate-settings-daemon-dev_1.29.1+git20261118.e39a109-1menta1_amd64.deb",
+   "package": "mate-settings-daemon-dev",
+   "sha256": "1b24f8241f096199d3836b9591074e34fb11242339d27f3af893488e0722ec18",
+   "size": 8148,
+   "source": "mate-settings-daemon",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-settings-daemon-dev_1.29.1+git20261118.e39a109-1menta1_amd64.deb",
+   "version": "1.29.1+git20261118.e39a109-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:6dd3b324c0866fd6f29039defae8c8e1562fae250ae0ac570a60ed4b75ddcabf",
+   "file": "mate-utils_1.29.1+git20261117.1745848-1menta1_amd64.deb",
+   "package": "mate-utils",
+   "sha256": "e46e5310d97455715f29fe96dab194504100c96fde8a4c4a0652a74df9f0644d",
+   "size": 238532,
+   "source": "mate-utils",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-utils_1.29.1+git20261117.1745848-1menta1_amd64.deb",
+   "version": "1.29.1+git20261117.1745848-1menta1"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:6dd3b324c0866fd6f29039defae8c8e1562fae250ae0ac570a60ed4b75ddcabf",
+   "file": "mate-utils-common_1.29.1+git20261117.1745848-1menta1_all.deb",
+   "package": "mate-utils-common",
+   "sha256": "184c95755971096ce13323df7d5b8ee1b4a3750935d9f2413ac9b2207a8017dc",
+   "size": 6627772,
+   "source": "mate-utils",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-utils-common_1.29.1+git20261117.1745848-1menta1_all.deb",
+   "version": "1.29.1+git20261117.1745848-1menta1"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:5bc91f166da7cc8566bf9f1e4a45b1ed097289129de4ea2d4d2a4d5ab6c7dc40",
+   "file": "plymouth-theme-orbit-plane_0+git20261118.70a9da4-1menta1_all.deb",
+   "package": "plymouth-theme-orbit-plane",
+   "sha256": "486cb40798c3709548f0c4807417620efebc1c26af44889a24aa5beb6b8e12c9",
+   "size": 5093564,
+   "source": "menta-plymouth",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/plymouth-theme-orbit-plane_0+git20261118.70a9da4-1menta1_all.deb",
+   "version": "0+git20261118.70a9da4-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:559bc46b3d823f05d211234f61fc705e774d311b58e02423cf538cb1e7bc9468",
+   "file": "polo_1.0.1+git20261123.b9514ed-1menta2_amd64.deb",
+   "package": "polo",
+   "sha256": "cd2be0a98aee890a03023fe77cd5c33dd35900e9809312377a16379a11a466e4",
+   "size": 1176280,
+   "source": "polo",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/polo_1.0.1+git20261123.b9514ed-1menta2_amd64.deb",
+   "version": "1.0.1+git20261123.b9514ed-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:7573661b6719504666d3b63a29eeca72c54ce6cc84461e69a6868e91548d8714",
+   "file": "polo-tweaks_1.0.0+git20261118.fb6ab1b-1menta1_amd64.deb",
+   "package": "polo-tweaks",
+   "sha256": "34ee26a62cbbe16dd45c1579e8b218ca5dcb2f5c374273c01bf5da041a84c5ab",
+   "size": 71968,
+   "source": "polo-tweaks",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/polo-tweaks_1.0.0+git20261118.fb6ab1b-1menta1_amd64.deb",
+   "version": "1.0.0+git20261118.fb6ab1b-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:3edf297a317fdc5e70e3ea410cb15116069872ab1e5bb5ca910d3c87d18293a4",
+   "file": "rojo_0.1.0+git20261022.30cc46f-1menta1_amd64.deb",
+   "package": "rojo",
+   "sha256": "8570d09f0203c6db4b16903537ea5602bcde423718d2b2459f8e3c6721fe3e2b",
+   "size": 70224,
+   "source": "rojo",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/rojo_0.1.0+git20261022.30cc46f-1menta1_amd64.deb",
+   "version": "0.1.0+git20261022.30cc46f-1menta1"
+  }
+ ],
+ "previous": "s-9dd06bf36d3de83d",
+ "schema_version": 1,
+ "snapshot_id": "s-5756db1b7f1d7e15",
+ "sources": {
+  "caja": {
+   "build_id": "sha256:aba00c28479b50a03715c5414246a59b772512979ea8e75bb5da2863984b00e8",
+   "version": "1.29.1-1menta2"
+  },
+  "marco": {
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "version": "1.29.1-1menta1"
+  },
+  "mate-applets": {
+   "build_id": "sha256:f49679a932def08ba9c983a092b16e244f27a7721e99c55f70c81ebacf65d11b",
+   "version": "1.28.1+git20261119.57488bf-1menta1"
+  },
+  "mate-clipboard": {
+   "build_id": "sha256:bc3954b2e4266fa1838193c63aeace5cb2e064c9a0a370ba951949d8577856ca",
+   "version": "2.0.1-1menta1"
+  },
+  "mate-control-center": {
+   "build_id": "sha256:c07033206e675a143625d96017c7c76ea5e06ff35277d665e63a7319869d91b3",
+   "version": "1.29.1+git20261118.6779122-1menta1"
+  },
+  "mate-desktop": {
+   "build_id": "sha256:bed246176465980d1ea75c0f9b70ade56919b1ffe5cabe15fb538a1f30b909a2",
+   "version": "1.29.1-1menta2"
+  },
+  "mate-fprint": {
+   "build_id": "sha256:df911cda6a39a91b2bf80c2bb951a4e1acf9cfc88627010bd29032951fee7479",
+   "version": "1.0.0-1menta1"
+  },
+  "mate-media": {
+   "build_id": "sha256:e4da936d6a4314b4da05723e10c2c5fc1b8fcf46010b970fe1a445e8204ffd0a",
+   "version": "1.29.0-1menta2"
+  },
+  "mate-notification-daemon": {
+   "build_id": "sha256:e638b8b49b225179fd61cf0055e3451e45af41cf2d08132a5ee9dadaa6064174",
+   "version": "1.29.0-1menta2"
+  },
+  "mate-panel": {
+   "build_id": "sha256:16b0d4f9d39c18daf05056271e5f1fe9cf1996c90136355e900032df60358de6",
+   "version": "1.29.2-1menta2"
+  },
+  "mate-power-manager": {
+   "build_id": "sha256:d7aead6416c1410837b62ec950253c79df19eefd71f5f7d2e42bbb053ab04b37",
+   "version": "1.29.0+git20260921.4cf7346-1menta1"
+  },
+  "mate-redshift": {
+   "build_id": "sha256:bcddd83d647f6542cb224f7d8e7627ebea6a281380307dd580cd7c785097519b",
+   "version": "0.1.0+git20261022.c2f3fba-1menta2"
+  },
+  "mate-settings-daemon": {
+   "build_id": "sha256:463a4c5517db9b1b4b177908169957494727ad6dad2aa8ebcd499dc560351a57",
+   "version": "1.29.1+git20261118.e39a109-1menta1"
+  },
+  "mate-utils": {
+   "build_id": "sha256:6dd3b324c0866fd6f29039defae8c8e1562fae250ae0ac570a60ed4b75ddcabf",
+   "version": "1.29.1+git20261117.1745848-1menta1"
+  },
+  "menta-plymouth": {
+   "build_id": "sha256:5bc91f166da7cc8566bf9f1e4a45b1ed097289129de4ea2d4d2a4d5ab6c7dc40",
+   "version": "0+git20261118.70a9da4-1menta1"
+  },
+  "polo": {
+   "build_id": "sha256:559bc46b3d823f05d211234f61fc705e774d311b58e02423cf538cb1e7bc9468",
+   "version": "1.0.1+git20261123.b9514ed-1menta2"
+  },
+  "polo-tweaks": {
+   "build_id": "sha256:7573661b6719504666d3b63a29eeca72c54ce6cc84461e69a6868e91548d8714",
+   "version": "1.0.0+git20261118.fb6ab1b-1menta1"
+  },
+  "rojo": {
+   "build_id": "sha256:3edf297a317fdc5e70e3ea410cb15116069872ab1e5bb5ca910d3c87d18293a4",
+   "version": "0.1.0+git20261022.30cc46f-1menta1"
+  }
+ },
+ "validation": [
+  {
+   "rule": "REPO-002",
+   "status": "PASS",
+   "summary": "46 distinct package identities"
+  },
+  {
+   "rule": "REPO-003",
+   "status": "PASS",
+   "summary": "no undeclared file sharing across 22999 paths"
+  },
+  {
+   "rule": "REPO-001",
+   "status": "PASS",
+   "summary": "all 46 binary packages of the set are installable together on sid"
+  }
+ ]
+}

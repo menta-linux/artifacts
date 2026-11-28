@@ -1,0 +1,37 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "62877f8510283e4b6fcc796b0c02ed24f334d4dbe68198876fd22ac045c8ebd8",
+ "build_environment": "sid",
+ "build_id": "sha256:df911cda6a39a91b2bf80c2bb951a4e1acf9cfc88627010bd29032951fee7479",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:df911cda6a39a91b2bf80c2bb951a4e1acf9cfc88627010bd29032951fee7479",
+   "file": "mate-fprint_1.0.0-1menta1_amd64.deb",
+   "package": "mate-fprint",
+   "sha256": "45c8f52c444fe0c60fec9425548fa2e5442f8fb6c309a12b4342f541be9fa7b3",
+   "size": 23984,
+   "source": "mate-fprint",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-fprint_1.0.0-1menta1_amd64.deb",
+   "version": "1.0.0-1menta1"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-fprint",
+ "source_sha256": "47ab883e8dfaf415d408e690830d32c6625091cecb548189ab7c35f59107e62c",
+ "target": "sid",
+ "upstream_version": "1.0.0",
+ "version": "1.0.0-1menta1"
+}

@@ -1,0 +1,78 @@
+{
+ "base": "sid",
+ "builds": [
+  "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af"
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "file": "libmarco-dev_1.29.1-1menta1_amd64.deb",
+   "package": "libmarco-dev",
+   "sha256": "766e0a2390c5e462c390d9b5954bbeaab5cb0017fe42accb6ab03b1ee6ec5b4e",
+   "size": 29328,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmarco-dev_1.29.1-1menta1_amd64.deb",
+   "version": "1.29.1-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "file": "libmarco-private2_1.29.1-1menta1_amd64.deb",
+   "package": "libmarco-private2",
+   "sha256": "d5aad87a4563b910ddc2c9c6d3aeb7c09cac23cb3cba55e9061aca33ca92436d",
+   "size": 288972,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmarco-private2_1.29.1-1menta1_amd64.deb",
+   "version": "1.29.1-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "file": "marco_1.29.1-1menta1_amd64.deb",
+   "package": "marco",
+   "sha256": "952521f38ede82403f5bc0344274cdd743652607d82d0c4dedc508f9e831a756",
+   "size": 39332,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/marco_1.29.1-1menta1_amd64.deb",
+   "version": "1.29.1-1menta1"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "file": "marco-common_1.29.1-1menta1_all.deb",
+   "package": "marco-common",
+   "sha256": "47ea7e689128e33005cb71f22d85573c332771271002f7299c8f3782a09a8121",
+   "size": 734824,
+   "source": "marco",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/marco-common_1.29.1-1menta1_all.deb",
+   "version": "1.29.1-1menta1"
+  }
+ ],
+ "previous": null,
+ "schema_version": 1,
+ "snapshot_id": "s-232418059aa9b243",
+ "sources": {
+  "marco": {
+   "build_id": "sha256:5185b46552af7f01ff3d2fd0f6ccd62c46fdfd54efa9219c003849343737d2af",
+   "version": "1.29.1-1menta1"
+  }
+ },
+ "validation": [
+  {
+   "rule": "REPO-002",
+   "status": "PASS",
+   "summary": "4 distinct package identities"
+  },
+  {
+   "rule": "REPO-003",
+   "status": "PASS",
+   "summary": "no undeclared file sharing across 235 paths"
+  },
+  {
+   "rule": "REPO-001",
+   "status": "PASS",
+   "summary": "all 4 binary packages of the set are installable together on sid"
+  }
+ ]
+}

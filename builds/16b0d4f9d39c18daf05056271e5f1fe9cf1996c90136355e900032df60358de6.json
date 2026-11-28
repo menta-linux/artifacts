@@ -1,0 +1,92 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "eb692c39e45d32a6adce41067429f37c0d94153be3a15ac460c90a85c4dc8636",
+ "build_environment": "sid",
+ "build_id": "sha256:16b0d4f9d39c18daf05056271e5f1fe9cf1996c90136355e900032df60358de6",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:16b0d4f9d39c18daf05056271e5f1fe9cf1996c90136355e900032df60358de6",
+   "file": "gir1.2-matepanelapplet-4.0_1.29.2-1menta2_amd64.deb",
+   "package": "gir1.2-matepanelapplet-4.0",
+   "sha256": "d4a19c856e4d45fe5b22299488764489208b9cbb9c99b26823333a9f64fffd53",
+   "size": 25468,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/gir1.2-matepanelapplet-4.0_1.29.2-1menta2_amd64.deb",
+   "version": "1.29.2-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:16b0d4f9d39c18daf05056271e5f1fe9cf1996c90136355e900032df60358de6",
+   "file": "libmate-panel-applet-4-2_1.29.2-1menta2_amd64.deb",
+   "package": "libmate-panel-applet-4-2",
+   "sha256": "f4f10be37de6055af5e7b9e55392c4add42cac5e6e7b47b0b2f17e117805ab16",
+   "size": 45168,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmate-panel-applet-4-2_1.29.2-1menta2_amd64.deb",
+   "version": "1.29.2-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:16b0d4f9d39c18daf05056271e5f1fe9cf1996c90136355e900032df60358de6",
+   "file": "libmate-panel-applet-dev_1.29.2-1menta2_amd64.deb",
+   "package": "libmate-panel-applet-dev",
+   "sha256": "c67d6e5db292336e3b5d4322ec745639f29220e5eafa998f2979d6e9bfe93035",
+   "size": 29804,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmate-panel-applet-dev_1.29.2-1menta2_amd64.deb",
+   "version": "1.29.2-1menta2"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:16b0d4f9d39c18daf05056271e5f1fe9cf1996c90136355e900032df60358de6",
+   "file": "libmate-panel-applet-doc_1.29.2-1menta2_all.deb",
+   "package": "libmate-panel-applet-doc",
+   "sha256": "de3ea0570c0b9f8e792f09c9e9163279ff129aad7bc56bfa9db59ed85071319b",
+   "size": 37500,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libmate-panel-applet-doc_1.29.2-1menta2_all.deb",
+   "version": "1.29.2-1menta2"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:16b0d4f9d39c18daf05056271e5f1fe9cf1996c90136355e900032df60358de6",
+   "file": "mate-panel-common_1.29.2-1menta2_all.deb",
+   "package": "mate-panel-common",
+   "sha256": "cd77a481ab916351a65dcddc97addf7a5233095e7a2085b14cd0670d3abe7dca",
+   "size": 1467664,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-panel-common_1.29.2-1menta2_all.deb",
+   "version": "1.29.2-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:16b0d4f9d39c18daf05056271e5f1fe9cf1996c90136355e900032df60358de6",
+   "file": "mate-panel_1.29.2-1menta2_amd64.deb",
+   "package": "mate-panel",
+   "sha256": "c4b42bed0755ee017a28f8c1629d323605912a1418b13c271fb6ad9b57662f7f",
+   "size": 622580,
+   "source": "mate-panel",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-panel_1.29.2-1menta2_amd64.deb",
+   "version": "1.29.2-1menta2"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-panel",
+ "source_sha256": "a8522151c98ad4b804b0413f502e64622e3d16248fdb1ee02a670f895d3dd5ea",
+ "target": "sid",
+ "upstream_version": "1.29.2",
+ "version": "1.29.2-1menta2"
+}

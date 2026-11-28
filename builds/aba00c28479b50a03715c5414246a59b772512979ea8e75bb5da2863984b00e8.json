@@ -1,0 +1,92 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "0a8298c4b7c5c1f81133b66281100ac649e9e344063e7a11cb4c8aab426b0ee8",
+ "build_environment": "sid",
+ "build_id": "sha256:aba00c28479b50a03715c5414246a59b772512979ea8e75bb5da2863984b00e8",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "all",
+   "build_id": "sha256:aba00c28479b50a03715c5414246a59b772512979ea8e75bb5da2863984b00e8",
+   "file": "caja-common_1.29.1-1menta2_all.deb",
+   "package": "caja-common",
+   "sha256": "237679704b1fae7daa5fd776b80d624eb7bc711d1a60488085bf1efff0fd1bd9",
+   "size": 2378628,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/caja-common_1.29.1-1menta2_all.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:aba00c28479b50a03715c5414246a59b772512979ea8e75bb5da2863984b00e8",
+   "file": "caja_1.29.1-1menta2_amd64.deb",
+   "package": "caja",
+   "sha256": "9a52de5067bce94fc532b441bb3906c4cb8c8d998b9fe4e349234f13c96bf824",
+   "size": 895064,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/caja_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:aba00c28479b50a03715c5414246a59b772512979ea8e75bb5da2863984b00e8",
+   "file": "gir1.2-caja-2.0_1.29.1-1menta2_amd64.deb",
+   "package": "gir1.2-caja-2.0",
+   "sha256": "8f570bcacc43323060cf62191e68d1e576748265ef80482b90a5bffbda5bbd2a",
+   "size": 22568,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/gir1.2-caja-2.0_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:aba00c28479b50a03715c5414246a59b772512979ea8e75bb5da2863984b00e8",
+   "file": "libcaja-extension-dev_1.29.1-1menta2_amd64.deb",
+   "package": "libcaja-extension-dev",
+   "sha256": "61e603d309156770114865b8746d5eab8d85819faaaa29e6c3214169f4b75051",
+   "size": 34400,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libcaja-extension-dev_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:aba00c28479b50a03715c5414246a59b772512979ea8e75bb5da2863984b00e8",
+   "file": "libcaja-extension-doc_1.29.1-1menta2_all.deb",
+   "package": "libcaja-extension-doc",
+   "sha256": "19d11c7884b20638b994d93c455b624895a979c5a82e810ab8898bc21b72c1bd",
+   "size": 40040,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libcaja-extension-doc_1.29.1-1menta2_all.deb",
+   "version": "1.29.1-1menta2"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:aba00c28479b50a03715c5414246a59b772512979ea8e75bb5da2863984b00e8",
+   "file": "libcaja-extension1_1.29.1-1menta2_amd64.deb",
+   "package": "libcaja-extension1",
+   "sha256": "714802eb9fa94b04d2f198c5c64c95b1581d03cc4f68fa1beb783c754e45e5a6",
+   "size": 31052,
+   "source": "caja",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/libcaja-extension1_1.29.1-1menta2_amd64.deb",
+   "version": "1.29.1-1menta2"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "caja",
+ "source_sha256": "88f4b1d69bc6b15b5aeb29a9fbeb65f181de0d8136d280fac3cdcf90b808a40a",
+ "target": "sid",
+ "upstream_version": "1.29.1",
+ "version": "1.29.1-1menta2"
+}

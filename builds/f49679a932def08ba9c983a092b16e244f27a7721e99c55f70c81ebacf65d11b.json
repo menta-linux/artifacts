@@ -1,0 +1,48 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "98be3985b00008acdeeed107572eab7366f5b0d486349fa015371080bb15d6b7",
+ "build_environment": "sid",
+ "build_id": "sha256:f49679a932def08ba9c983a092b16e244f27a7721e99c55f70c81ebacf65d11b",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "all",
+   "build_id": "sha256:f49679a932def08ba9c983a092b16e244f27a7721e99c55f70c81ebacf65d11b",
+   "file": "mate-applets-common_1.28.1+git20261119.57488bf-1menta1_all.deb",
+   "package": "mate-applets-common",
+   "sha256": "aa3e4661d34aeaae8d489248dca77eebacd220a65245edec2ff7be0b3d34ac88",
+   "size": 7513848,
+   "source": "mate-applets",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-applets-common_1.28.1+git20261119.57488bf-1menta1_all.deb",
+   "version": "1.28.1+git20261119.57488bf-1menta1"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:f49679a932def08ba9c983a092b16e244f27a7721e99c55f70c81ebacf65d11b",
+   "file": "mate-applets_1.28.1+git20261119.57488bf-1menta1_amd64.deb",
+   "package": "mate-applets",
+   "sha256": "f19e66665e1a8860b218a779b3eacb2bdf6a725ac376da39be5cf3ef35434f4a",
+   "size": 205340,
+   "source": "mate-applets",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/mate-applets_1.28.1+git20261119.57488bf-1menta1_amd64.deb",
+   "version": "1.28.1+git20261119.57488bf-1menta1"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-applets",
+ "source_sha256": "7b84da3f68003de85e6afae7f4f7a7bffd1529a3a815cf3ecbbe8d527fe2d7c4",
+ "target": "sid",
+ "upstream_version": "1.28.1+git20261119.57488bf",
+ "version": "1.28.1+git20261119.57488bf-1menta1"
+}

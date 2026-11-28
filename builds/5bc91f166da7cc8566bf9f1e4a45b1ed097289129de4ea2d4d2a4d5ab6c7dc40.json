@@ -1,0 +1,37 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "2809ef3f87a564a68f511969403fa4b67413e99c1f2ebc4b3dfd1f50ea0c5a42",
+ "build_environment": "sid",
+ "build_id": "sha256:5bc91f166da7cc8566bf9f1e4a45b1ed097289129de4ea2d4d2a4d5ab6c7dc40",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published unstable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "all",
+   "build_id": "sha256:5bc91f166da7cc8566bf9f1e4a45b1ed097289129de4ea2d4d2a4d5ab6c7dc40",
+   "file": "plymouth-theme-orbit-plane_0+git20261118.70a9da4-1menta1_all.deb",
+   "package": "plymouth-theme-orbit-plane",
+   "sha256": "486cb40798c3709548f0c4807417620efebc1c26af44889a24aa5beb6b8e12c9",
+   "size": 5093564,
+   "source": "menta-plymouth",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-sid/plymouth-theme-orbit-plane_0+git20261118.70a9da4-1menta1_all.deb",
+   "version": "0+git20261118.70a9da4-1menta1"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "menta-plymouth",
+ "source_sha256": "75e5e3fac5553e9fe7afc15c924f275fcac969e009e8311b5f1c6ffde19af37d",
+ "target": "sid",
+ "upstream_version": "0+git20261118.70a9da4",
+ "version": "0+git20261118.70a9da4-1menta1"
+}

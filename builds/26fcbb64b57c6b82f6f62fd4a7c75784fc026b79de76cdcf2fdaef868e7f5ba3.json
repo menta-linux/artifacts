@@ -1,0 +1,37 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "a402e40b4d08c7b14006d37c49af6d91360f2b58be9402f92c2d6c0f3b15bae5",
+ "build_environment": "trixie",
+ "build_id": "sha256:26fcbb64b57c6b82f6f62fd4a7c75784fc026b79de76cdcf2fdaef868e7f5ba3",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:26fcbb64b57c6b82f6f62fd4a7c75784fc026b79de76cdcf2fdaef868e7f5ba3",
+   "file": "polo-tweaks_1.0.0+git20261118.fb6ab1b-1menta1.deb13_amd64.deb",
+   "package": "polo-tweaks",
+   "sha256": "dffba4dbc7f258c22975544506a1907defb06247de493e472d7c138fdee00ff7",
+   "size": 68488,
+   "source": "polo-tweaks",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/polo-tweaks_1.0.0+git20261118.fb6ab1b-1menta1.deb13_amd64.deb",
+   "version": "1.0.0+git20261118.fb6ab1b-1menta1~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "polo-tweaks",
+ "source_sha256": "89ddc3639dd7d41497c90e0d309f1aba52b98efda17187dcb5b62be27b206118",
+ "target": "trixie",
+ "upstream_version": "1.0.0+git20261118.fb6ab1b",
+ "version": "1.0.0+git20261118.fb6ab1b-1menta1~deb13"
+}

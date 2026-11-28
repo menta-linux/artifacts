@@ -1,0 +1,48 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "72f3ce801eea236033ba13bdac6dbc9706f71aa121e90d2f7bc6cbdea921dff8",
+ "build_environment": "trixie",
+ "build_id": "sha256:2c1227a45f666d28ea6e43a97f27f07d3e446c3d9532342e01cf6d26d08964a1",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "all",
+   "build_id": "sha256:2c1227a45f666d28ea6e43a97f27f07d3e446c3d9532342e01cf6d26d08964a1",
+   "file": "mate-control-center-common_1.29.1+git20261118.6779122-1menta1.deb13_all.deb",
+   "package": "mate-control-center-common",
+   "sha256": "acee24af5a83ad805851be2aa0513f7dd0be1499d8f680aa7a87e9f34a094dc4",
+   "size": 2174496,
+   "source": "mate-control-center",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-control-center-common_1.29.1+git20261118.6779122-1menta1.deb13_all.deb",
+   "version": "1.29.1+git20261118.6779122-1menta1~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:2c1227a45f666d28ea6e43a97f27f07d3e446c3d9532342e01cf6d26d08964a1",
+   "file": "mate-control-center_1.29.1+git20261118.6779122-1menta1.deb13_amd64.deb",
+   "package": "mate-control-center",
+   "sha256": "6e207bfe6a023255ceca19cb418327c299c4b95aa0a2b5701e95f62de50d57be",
+   "size": 388356,
+   "source": "mate-control-center",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-control-center_1.29.1+git20261118.6779122-1menta1.deb13_amd64.deb",
+   "version": "1.29.1+git20261118.6779122-1menta1~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-control-center",
+ "source_sha256": "a5c463a0325a641102cb7a8c725f7cc87091fd25ca69c399ba2e81a27715540c",
+ "target": "trixie",
+ "upstream_version": "1.29.1+git20261118.6779122",
+ "version": "1.29.1+git20261118.6779122-1menta1~deb13"
+}

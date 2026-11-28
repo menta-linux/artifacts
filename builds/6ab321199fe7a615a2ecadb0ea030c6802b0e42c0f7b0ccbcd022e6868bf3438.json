@@ -1,0 +1,92 @@
+{
+ "architecture": "amd64",
+ "authorization_id": "d763c6ecf405e62e1b413e4a0bae7ee660a5d85ddd39af3184eacf149f35c8dc",
+ "build_environment": "trixie",
+ "build_id": "sha256:6ab321199fe7a615a2ecadb0ea030c6802b0e42c0f7b0ccbcd022e6868bf3438",
+ "dependencies": {
+  "build_backports": [],
+  "runtime_backports": []
+ },
+ "evidence": [
+  {
+   "rule": "BOOTSTRAP",
+   "status": "INFO",
+   "summary": "imported unchanged from the previously published stable release; not built by the orchestrator"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:6ab321199fe7a615a2ecadb0ea030c6802b0e42c0f7b0ccbcd022e6868bf3438",
+   "file": "gir1.2-matedesktop-2.0_1.29.1-1menta2.deb13_amd64.deb",
+   "package": "gir1.2-matedesktop-2.0",
+   "sha256": "d2586d5e448db98b7325f57b48a1be1d7688979f752ad85602729ab89b4f03e3",
+   "size": 22448,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/gir1.2-matedesktop-2.0_1.29.1-1menta2.deb13_amd64.deb",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:6ab321199fe7a615a2ecadb0ea030c6802b0e42c0f7b0ccbcd022e6868bf3438",
+   "file": "libmate-desktop-2-17t64_1.29.1-1menta2.deb13_amd64.deb",
+   "package": "libmate-desktop-2-17t64",
+   "sha256": "7fe6b5b9efc706c9029a48826835640f27ff7eeccf1c8b6a733b16b545105611",
+   "size": 123424,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libmate-desktop-2-17t64_1.29.1-1menta2.deb13_amd64.deb",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:6ab321199fe7a615a2ecadb0ea030c6802b0e42c0f7b0ccbcd022e6868bf3438",
+   "file": "libmate-desktop-dev_1.29.1-1menta2.deb13_amd64.deb",
+   "package": "libmate-desktop-dev",
+   "sha256": "bf51bcc3a2b002195a0ef5eb8d979587a7ce08177e88eb164b6f9da025668988",
+   "size": 53036,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libmate-desktop-dev_1.29.1-1menta2.deb13_amd64.deb",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:6ab321199fe7a615a2ecadb0ea030c6802b0e42c0f7b0ccbcd022e6868bf3438",
+   "file": "libmate-desktop-doc_1.29.1-1menta2.deb13_all.deb",
+   "package": "libmate-desktop-doc",
+   "sha256": "8c26ba13715fdb478590e14b5addd32251ff77fd30a3e04a85ed51b049e34b93",
+   "size": 38116,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/libmate-desktop-doc_1.29.1-1menta2.deb13_all.deb",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  {
+   "architecture": "all",
+   "build_id": "sha256:6ab321199fe7a615a2ecadb0ea030c6802b0e42c0f7b0ccbcd022e6868bf3438",
+   "file": "mate-desktop-common_1.29.1-1menta2.deb13_all.deb",
+   "package": "mate-desktop-common",
+   "sha256": "b29b1ecc30960944a281757c5e6f741d31cbe648e177daba79c540ff6b4c100a",
+   "size": 529124,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-desktop-common_1.29.1-1menta2.deb13_all.deb",
+   "version": "1.29.1-1menta2~deb13"
+  },
+  {
+   "architecture": "amd64",
+   "build_id": "sha256:6ab321199fe7a615a2ecadb0ea030c6802b0e42c0f7b0ccbcd022e6868bf3438",
+   "file": "mate-desktop_1.29.1-1menta2.deb13_amd64.deb",
+   "package": "mate-desktop",
+   "sha256": "6d4fca564f711d0a2d271648dcc008c4806652b76c4661982b0d47ad43c779f5",
+   "size": 32464,
+   "source": "mate-desktop",
+   "uri": "https://github.com/menta-linux/artifacts/releases/download/bootstrap-trixie/mate-desktop_1.29.1-1menta2.deb13_amd64.deb",
+   "version": "1.29.1-1menta2~deb13"
+  }
+ ],
+ "packaging_commit": "bootstrap",
+ "schema_version": 1,
+ "source_package": "mate-desktop",
+ "source_sha256": "88b75312c90335b1586894e3c358c31dc3d0505294b860f09e453c430529edb1",
+ "target": "trixie",
+ "upstream_version": "1.29.1",
+ "version": "1.29.1-1menta2~deb13"
+}
