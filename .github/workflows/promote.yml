@@ -38,13 +38,18 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           repository: menta-linux/orchestrator
-          ref: 75a8be38c682bc43940bfc201ac28cd5cea80d53
+          ref: 22196da5ca13636abae9191927bbfa24e158d03f
           path: orchestrator
           persist-credentials: false
       - name: Install tooling (distribution packages only)
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends python3-debian python3-jsonschema python3-cryptography python3-yaml python3-apt dose-builddebcheck dose-extra gnupg gpgv debian-archive-keyring git
+      - name: Current Debian archive keyring (the runner's predates the trixie signing keys; pinned by SHA-256)
+        run: |
+          curl --fail --silent --show-error --location --proto '=https,http' -o "$RUNNER_TEMP/dak.deb" http://deb.debian.org/debian/pool/main/d/debian-archive-keyring/debian-archive-keyring_2025.1_all.deb
+          echo "9ea7778e443144ca490668737a8ab22dd3e748bb99e805e22ec055abeb3c7fac  $RUNNER_TEMP/dak.deb" | sha256sum --check --strict
+          sudo dpkg -i "$RUNNER_TEMP/dak.deb"
       - name: Promote
         run: |
           cd orchestrator
